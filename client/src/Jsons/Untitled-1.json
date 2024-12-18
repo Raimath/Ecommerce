@@ -1,0 +1,54 @@
+{
+        "_id": 16,
+        "title": "Men Printed Crew Neck Cotton Blend Yellow T-Shirt",
+        "price": 719,
+        "strike-price": 1199,
+        "discount": 40,
+        "featured": true,
+        "category": "t-shirt",
+        "image": "https://rukminim2.flixcart.com/image/128/128/xif0q/t-shirt/3/t/j/-original-imagzjzuhf7aepwy.jpeg?q=70&crop=false"
+},
+
+
+{
+        "_id": 15,
+        "title": "Men Printed Crew Neck Cotton Blend Blue T-Shirt",
+        "description": "Treat yourself to the ultimate in style and comfort with the Men's Logo T-shirt. With its eye-catching logo graphic and classic crew-neck design, this cotton tee is the perfect addition to your casual wardrobe. And with its comfortable fit, you'll never want to take it off! Whether you're hanging out with friends or running errands around town, this tee has got you covered. Details: Regular fit.Jersey knit.Crew neck.PUMA cat logo branding.Short sleeves.",
+       "price": 435,
+        "strike-price": 1099,
+        "discount": 60,
+        "featured": true,
+        "category": "t-shirt",
+        "product-link": "https://www.flipkart.com/wrogn-printed-men-crew-neck-yellow-t-shirt/p/itmc77945db7905a?pid=TSHGY3HXKG7TYCRB&cmpid=product.share.pp&_refId=PP.c36656e7-a769-402e-98bf-5bc5e8370c0f.TSHGY3HXKG7TYCRB&_appId=WA",
+        "imageurl": [
+                {
+                        "id": 1,
+                        "imagelink": "https://rukminim2.flixcart.com/image/128/128/xif0q/t-shirt/3/t/j/-original-imagzjzuhf7aepwy.jpeg?q=70&crop=false"
+                },
+                {
+                        "id": 2,
+                        "imagelink": "https://rukminim2.flixcart.com/image/128/128/xif0q/t-shirt/q/9/i/s-23770448-wrogn-original-imagsw8qudme6gdg.jpeg?q=70&crop=false"
+                },
+                {
+                        "id": 3,
+                        "imagelink": "https://rukminim2.flixcart.com/image/128/128/xif0q/t-shirt/f/z/e/s-23770448-wrogn-original-imagsw8qxhzebzue.jpeg?q=70&crop=false"
+                },
+                {
+                        "id": 4,
+                        "imagelink": "https://rukminim2.flixcart.com/image/128/128/xif0q/t-shirt/x/v/x/s-23770448-wrogn-original-imagsw8qneaawwak.jpeg?q=70&crop=false"
+                }
+        ],
+        "moreinfo": [
+                {  "category": "t-shirt"},
+                {"cloth type": "cotton blend"},
+                {"available sizes": "M L XL XXL"},
+                {"sleeves": "half sleeves"},
+                {"neck type": "round neck"},
+                {"fit": "regular"},
+                {"pack of": "1"},
+                {"ideal for": "men"},
+                {"pattern": "printed"},
+                {"net quantity": "1"},
+                {"fabric care": "gentle machine wash"}
+        ]
+},

@@ -1,0 +1,867 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: inter;
+    background-color: #f6f6f6;
+}
+
+
+nav ul li a {
+    text-decoration: none;
+}
+
+/* *********************************************************************************
+                        Resuable/Utility classes starts
+********************************************************************************* */
+
+:root {
+    --background: #f1eeff;
+    --spancolor: #737373;
+    --pcolor: #393939;
+    --hovershadow: 0px 4px 3px 1px #969696;
+
+}
+
+/* .active {
+    color: #424242;
+    transition: all 0.2s ease-in-out;
+    border-bottom: 5px solid #424242;
+} */
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid-two {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}
+
+section {
+    width: 100%;
+
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto 0px auto;
+    background-color: white;
+    padding: 10px;
+}
+
+h1,
+h2 {
+    line-height: 50px;
+    overflow-x: visible;
+
+}
+
+#name {
+    height: 50px;
+}
+
+h4 {
+    color: var(--pcolor);
+}
+
+p {
+    line-height: 23px;
+    margin-left: 5px;
+    color: var(--pcolor);
+}
+
+span {
+    margin-left: 10px;
+    color: var(--spancolor);
+}
+
+
+/* .btns {
+    background: linear-gradient(71deg, #8985ffe0, #ff50f4b0);
+    margin: 15px;
+    font-size: 1rem;
+    padding: 5px 15px 5px 15px;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0px 2px 2px 1px #969696;
+    transition: all 0.2s ease-in-out;
+    color: #313032;
+    text-transform: uppercase;
+} */
+
+.btns:hover {
+    box-shadow: 0px 4px 3px 1px #969696;
+    color: #000;
+}
+
+h2 {
+    position: relative;
+
+}
+
+h2::before {
+    content: "";
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    height: 5px;
+    width: 140px;
+    background: #38383b;
+    border-radius: 2px;
+}
+
+h2::after {
+    content: "";
+    position: absolute;
+    bottom: -10%;
+    right: 99%;
+    height: 15px;
+    width: 15px;
+    background: #38383b;
+    border-radius: 34px;
+}
+
+
+
+nav {
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #38383b;
+    position: sticky;
+    top: 0;
+    box-shadow: 0px 5px 5px -2px #0000005c;
+    transition: all 0.3s linear;
+    padding: 7px 80px;
+    z-index: 2;
+    font-family: inter;
+}
+
+nav ul li {
+    list-style: none;
+    /* font-size: 20px;
+    margin: 10px; */
+    padding: 2px 20px 2px 20px;
+    text-transform: capitalize;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.55);
+}
+
+nav ul li a {
+    color: rgba(255, 255, 255, 0.55);
+
+    &:hover {
+        color: white;
+    }
+}
+
+nav ul li:hover {
+    background-color: black;
+    color: white;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+nav .menu {
+
+    display: none;
+    position: absolute;
+    top: 0.7rem;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 2.25rem;
+    height: 2rem;
+}
+
+.logo {
+    font-size: 40px;
+    font-family: 'Lobster', sans-serif;
+    color: white;
+}
+
+.navigations ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-btn {
+    margin: 0;
+    font-size: 1rem;
+    padding: 5px 15px 5px 15px;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+    border: 1px solid white;
+    transition: all 0.3s ease-in-out;
+    color: white;
+    text-transform: capitalize;
+    font-weight: 600;
+
+    &:hover {
+        background-color: white;
+        color: black;
+    }
+}
+
+/* *********************************************************************************
+                        MyAccount classes starts
+********************************************************************************* */
+.nav-images img {
+    width: 40px;
+
+}
+
+.nav-image {
+    &:hover {
+        background-color: red;
+    }
+}
+
+.profile {
+    height: 20vh;
+    width: 100vw;
+}
+
+.myaccount-section {
+    flex-direction: column;
+    background-color: #e4e4e4;
+}
+
+.myaccount {
+    width: 100%;
+    background-color: #e4e4e4;
+    font-size: 1.2rem;
+}
+
+.myAccount-container {
+    background-color: white;
+    height: 70vh;
+    width: 70vw;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 5%;
+    gap: 10px;
+    border: 2px solid #d8d2d2;
+    box-shadow: 0px 0px 35px 15px #c8c8c85c;
+    border-radius: 10px;
+}
+
+.info-details {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.info-label {
+    color:black;
+}
+
+.acount-info {
+    flex-direction: column;
+    align-items: self-start;
+    gap: 20px;
+}
+
+.account-img img {
+    width: 10%;
+    position: absolute;
+    top: 18%;
+    left: 18%;
+}
+
+/***************************************************************************/
+
+.contact {
+    background-color: #f6f6f6;
+    color: black;
+    height: 100%;
+    width: 100%;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    overflow: hidden;
+    opacity: 0.7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contact .login-btn {
+    margin: 0;
+    font-size: 1.2rem;
+    padding: 5px 15px 5px 15px;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+    border: 2px solid black;
+    transition: all 0.3s ease-in-out;
+    color: black;
+    background-color: white;
+    text-transform: capitalize;
+    font-weight: 600;
+
+    &:hover {
+        background-color: black;
+        color: white;
+    }
+}
+
+form {
+    margin: 20px;
+}
+
+.contact-section {
+    flex-direction: column;
+    width: 50%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 15px 0px #c8c8c8;
+}
+
+.contact-section a {
+    color: black;
+    text-decoration: underline;
+}
+
+.form {
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact-section input,
+textarea {
+    width: 100%;
+    margin: 3px 3px 10px 3px;
+    padding: 8px;
+    font-size: 17px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    outline: none;
+    box-shadow: 0 0 15px 0px #c8c8c8;
+}
+
+.form label {
+    margin: 7px;
+}
+
+.form textarea {
+    resize: none;
+    height: 100px;
+}
+
+.form .login-btn {
+    margin: 0;
+    font-size: 1.2rem;
+    padding: 5px 15px 5px 15px;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+    border: 2px solid black;
+    transition: all 0.3s ease-in-out;
+    color: black;
+    background-color: white;
+    text-transform: capitalize;
+    font-weight: 600;
+
+    &:hover {
+        background-color: black;
+        color: white;
+    }
+
+}
+
+.contactSection {
+    height: 75vh;
+}
+
+iframe {
+    height: 1000px;
+}
+
+
+/* *********************************************************************************
+                        singleProduct styles starts
+********************************************************************************* */
+
+
+.product-container {
+    margin-top: 2%;
+    display: grid;
+    grid-template-columns: 1fr 1.3fr;
+    grid-gap: 10px;
+
+}
+
+.product-section {
+    background-color: #f6f6f6;
+    font-family: inter;
+}
+
+.product-images {
+    flex-direction: column;
+    gap: 20px;
+    max-height: 80vh;
+    /* border: 2px solid; */
+}
+
+.main-image img {
+    width: 22vw;
+}
+
+.sub-images {
+    gap: 10px;
+}
+
+.sub-images img {
+    width: 12%;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.product-content {
+    /* border: 2px solid; */
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2% 3% 0 0;
+    gap: 20px;
+}
+
+.title {
+    font-size: 1.5rem;
+    font-family: inter, sans-serif;
+}
+
+.spacial {
+    color: rgb(38, 165, 65);
+    font-weight: 600;
+    line-height: 35px;
+}
+
+.strike-price {
+    color: rgb(135, 135, 135);
+}
+
+.real-price {
+    font-size: 1.5rem;
+    font-family: inter;
+    font-weight: 500;
+}
+
+.more-info {
+    font-family: inter;
+    line-height: 34px;
+
+}
+
+.more-info h3 {
+    font-family: inter;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 34px;
+}
+
+.more-info table .key {
+    font-weight: 500;
+    font-size: 15px;
+    text-transform: capitalize;
+    color: rgb(135, 135, 135);
+    line-height: 20px;
+
+}
+
+.more-info table .value {
+    font-weight: 400;
+    font-size: 15px;
+    text-transform: capitalize;
+
+
+}
+
+.more-info table {
+    min-width: 150%;
+
+    border-spacing: 10px;
+}
+
+.buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.buttons input,.buttons a input  {
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    outline: none;
+    border: 2px solid black;
+    padding: 15px 30px;
+    width: 100%;
+    border-radius: 3px;
+    cursor: pointer;
+    text-align: center;
+
+}
+
+.buy-button {
+    background-color: #38383b;
+    color: white;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+        background-color: black;
+    }
+}
+
+.cart-button {
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+        background-color: #38383b;
+        color: white;
+    }
+}
+
+/* *********************************************************************************
+                        Product container styles starts
+********************************************************************************* */
+.product-container-section {
+    background-color: #f6f6f6;
+    flex-direction: column;
+    gap: 10px;
+    min-height: 70vh;
+
+}
+
+.product {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 15px 0px #c8c8c8;
+}
+
+.product-container-section .heading {
+    padding: 20px 25px;
+}
+
+.product-card-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+}
+
+.product-card-container a {
+    text-decoration: none;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* *********************************************************************************
+                        Product card styles starts
+********************************************************************************* */
+a {
+    text-decoration: none;
+}
+
+.product-card {
+    border: 1px solid #e3e3e3;
+    flex-direction: column;
+    margin: 20px;
+    padding: 5%;
+    gap: 10px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 0px #c8c8c8;
+    transition: all 0.2s ease-in-out;
+    height: 100%;
+
+    &:hover {
+        transform: scale(1.02);
+        box-shadow: 0 0 7px 5px #c9c9c9;
+    }
+}
+
+
+.product-card img {
+    width: 15vw;
+
+}
+
+.card-details {
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+    font-family: inter;
+    /* justify-content: flex-start; */
+    /* margin: 10px 0 5px 0 ; */
+}
+
+.card-strike-price {
+    color: rgb(135, 135, 135);
+}
+
+.card-real-price {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+
+/* *********************************************************************************
+                        cart page styles starts
+********************************************************************************* */
+.cart input {
+    position: relative;
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    transition: all 0.3s ease-in-out;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+    outline: none;
+    padding: 12px 30px;
+    width: 76%;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    bottom: 10px;
+    left: 12%;
+
+    &:hover {
+        background-color: #38383b;
+        color: white;
+    }
+
+}
+
+
+
+
+/* *********************************************************************************
+                        Shop page styles starts
+********************************************************************************* */
+
+.filters {
+    background-color: white;
+    /* border: 2px solid; */
+    box-shadow: 0 0 15px 0px #c8c8c8;
+    box-shadow: 0px 1px 15px -5px #000000;
+    margin: 0 0 10px 0;
+    position: sticky;
+}
+
+.filter-list {
+    text-transform: capitalize;
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+}
+
+.filter-list li {
+    list-style: none;
+    margin: 0;
+    font-size: 1rem;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    border: 2px solid #464646;
+    transition: all 0.3s ease-in-out;
+    color: black;
+    background-color: white;
+    text-transform: capitalize;
+
+    &:hover {
+        background-color: #1f1f1f;
+        color: white;
+    }
+}
+
+.filter-list .filter-ul {
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+/* *********************************************************************************
+                        Footer section starts
+********************************************************************************* */
+footer {
+    background-color: #38383b;
+    padding: 25px;
+}
+
+.footer-section {
+    width: 90%;
+    height: 100%;
+    justify-content: space-around;
+    align-items: flex-start;
+    color: #adadda;
+    margin: auto;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.footer-section h3 {
+    color: white;
+}
+
+.footer-section ul li {
+    text-transform: none;
+    justify-content: flex-start;
+    margin: 3px;
+}
+
+.socials,
+.navigations,
+.help {
+    flex-direction: column;
+    gap: 5px;
+    align-items: flex-start;
+}
+
+.socials {
+    color: #a9a9a9;
+}
+
+.socials svg {
+    width: 28px;
+    /*! height: 50%; */
+    /* filter: invert(); */
+    margin-right: 10px;
+    color: white;
+}
+
+.socials ul li a,
+.footer-navigations ul li a {
+    /*! margin: 20%; */
+    color: #a9a9a9;
+    cursor: pointer;
+}
+
+.socials ul li a:hover,
+.navigations ul li a:hover {
+    color: white;
+    transition: all 0.2s ease-in-out;
+}
+
+.copy h4 {
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    margin: 2% 0 0 0;
+}
+
+.address{
+    color: #a9a9a9;
+    flex-direction: column;
+    gap: 5px;
+    text-align: center;
+} 
+.address ul li{
+    margin: 10px 3px;
+    gap: 10px;
+}
+.address ul li svg {
+   
+    color: white;
+}
+.navigations ul li{
+    list-style: none;
+}
+
+/* *********************************************************************************
+                        T&C section starts
+********************************************************************************* */
+
+.tc-section{
+    background-color: #e8e8e8;
+    flex-direction: column;
+    gap: 10px;
+    min-height: 70vh;
+}
+
+.tc-container{
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 25px;
+    width: 80%;
+    padding: 30px;
+}
+.tc{
+    margin: auto;
+}
+.tc-list{
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 25px;
+    width: 90%; 
+}
+
+.tc-container h3{
+    text-decoration: underline;
+    font-size: 1.5ren;
+    /* font-family: Inter, -apple-system, Helvetica, Arial, sans-serif; */
+}
+
+
+/* *********************************************************************************
+                        Partners section starts
+********************************************************************************* */
+
+.partners-section{
+    background-color: #353535;
+}
+.partners-container{
+    background-color: #353535;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.partners-container h3{
+    color: white;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+.brand{
+    flex-direction: column;
+    gap: 10px;
+}
+.brand-name{
+    color: white;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+.brand img{
+    width: 50%;
+    border-radius: 7px;
+}
+.meesho img{
+    border-radius: 20px;
+}
+/* *********************************************************************************
+                        Slider section starts
+********************************************************************************* */
+.slider-section{
+    height: 50vh;
+    background-color: #afafaf;
+}
+
