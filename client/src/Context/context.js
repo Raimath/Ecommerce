@@ -14,7 +14,7 @@ export const ContextProvider = ({ children }) => {
     const [isLogedin, setisLogedin] = useState(localStorage.getItem('id'))
 
     const getAllProducts = async () => {
-        const res = await fetch("http://localhost:8000/allproducts", {
+        const res = await fetch("https://ecommerce-backend-99w3.onrender.com/allproducts", {
             method: 'GET',
             headers: {
                 "Content-Type": "application/json"
@@ -30,7 +30,7 @@ export const ContextProvider = ({ children }) => {
     const getUserInfo = async () => {
         if (localStorage.getItem('id')) {
             const userid = localStorage.getItem('id')
-            const res = await fetch("http://localhost:8000/user", {
+            const res = await fetch("https://ecommerce-backend-99w3.onrender.com/user", {
                 method: 'post',
                 headers: {
                     "Content-Type": "application/json"
