@@ -28,7 +28,7 @@ export const SingleProduct = () => {
   const getSingleProduct = async () => {
 
     try {
-      const res = await fetch(`http://localhost:8000/singleproduct/?id=${id}`)
+      const res = await fetch(`https://ecommerce-backend-99w3.onrender.com/singleproduct/?id=${id}`)
       const data = await res.json()
       console.log(data)
       setproductdata({
@@ -61,7 +61,7 @@ export const SingleProduct = () => {
     if (localStorage.getItem('id')) {
       console.log(loginInfo.carts)
       const userid = localStorage.getItem('id')
-      const res = await fetch("http://localhost:8000/cart", {
+      const res = await fetch("https://ecommerce-backend-99w3.onrender.com/cart", {
         method: 'POST',
         headers: {
           "Content-Type": "application/json"
