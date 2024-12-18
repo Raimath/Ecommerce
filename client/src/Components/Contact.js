@@ -24,7 +24,7 @@ export const Contact = () => {
         e.preventDefault();
         if (name && email && msg) {
             // axios.post("http://localhost:8000/register",user).then((res)=> console.log(res))
-            const res = await fetch("http://localhost:8000/contact", {
+            const res = await fetch("https://ecommerce-backend-99w3.onrender.com/contact", {
                 method: 'POST',
                 headers: {
                     "Content-Type": "application/json"
