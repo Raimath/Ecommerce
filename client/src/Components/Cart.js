@@ -43,7 +43,7 @@ export const Cart = () => {
         }))
 
       const userid = localStorage.getItem('id')
-      const res = await fetch("http://localhost:8000/removecart", {
+      const res = await fetch("https://ecommerce-backend-99w3.onrender.com/removecart", {
         method: 'POST',
         headers: {
           "Content-Type": "application/json"

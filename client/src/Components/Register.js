@@ -26,7 +26,7 @@ export const Register = () => {
         e.preventDefault();
         if(name && email && password && (password===confirmPassword)){     
             // axios.post("http://localhost:8000/register",user).then((res)=> console.log(res))
-            const res= await fetch("http://localhost:8000/register",{
+            const res= await fetch("https://ecommerce-backend-99w3.onrender.com/register",{
                 method:'POST',
                 headers:{
                     "Content-Type":"application/json"
