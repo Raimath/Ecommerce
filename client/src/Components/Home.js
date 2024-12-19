@@ -5,6 +5,7 @@ import { Slider } from './Slider';
 import {Contact} from './Contact'
 import { Partners } from './Partners';
 import { Review } from './Review';
+import { ServicesSection } from './ServicesSection';
 
 export const Home = () => {
   
@@ -16,6 +17,7 @@ export const Home = () => {
         <Slider/>
         <FeaturedProducts/>
         <Partners/>
+        <ServicesSection/>
         <ProductContainer/>
         <Review/>
         <Contact/>

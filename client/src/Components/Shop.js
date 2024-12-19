@@ -23,7 +23,7 @@ export const Shop = () => {
 
     return (
         <>
-            <section className='section product-container-section'>
+            <section className='section shop product-container-section'>
                 <div className='filters flex'>
                     <div className='filter-list flex'>
                         <ul className='flex filter-ul'>
