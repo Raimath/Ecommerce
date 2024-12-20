@@ -31,10 +31,13 @@ export const Login = () => {
                 },
                 body:JSON.stringify({email,password})
                 });
-              
+                const data= await res.json()
+                if(res.status!==200)
+                {
+                    alert(data.message)
+                }
                 if(res.status===200)
                 {
-                    const data= await res.json()
                     console.log(data.message)
                     setloginInfo(data.user)
                     localStorage.setItem('id',data.user._id)

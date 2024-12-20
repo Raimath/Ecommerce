@@ -22,7 +22,7 @@ router.post('/login', async (req, res) => {
             }
         }
         else {
-            return res.status(401).json({ message: "Invalid does not exist" });
+            return res.status(204).json({ message: "User does not exist" });
         }
     }
     catch (err) {

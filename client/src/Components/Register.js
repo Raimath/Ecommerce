@@ -33,8 +33,8 @@ export const Register = () => {
                 },
                 body:JSON.stringify({name,email,password,confirmPassword})
             });
-            const data= res
-            console.log(res)
+            const data= await res.json()
+            alert(data.message)
         }
         else{
             alert("Invalid input")
