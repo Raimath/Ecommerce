@@ -34,7 +34,7 @@ export const Register = () => {
                 body:JSON.stringify({name,email,password,confirmPassword})
             });
             const data= res
-            console.log(data)
+            console.log(res)
         }
         else{
             alert("Invalid input")

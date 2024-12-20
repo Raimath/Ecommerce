@@ -45,11 +45,12 @@ const Footer = () => {
                     </div>
                     <div className="navigations footer-navigations flex">
                         <h3>Navigations</h3>
-                        <ul>
-                            <li><NavLink to={"/home"}> Home</NavLink>
-                            </li>
-                            <li><NavLink to={"/about"}> About</NavLink></li>
+                        <ul className='footer-nav-list flex'>
+                            <li><NavLink to={"/home"}> Home</NavLink></li>
+                            <li><NavLink to={"/shop"}> Shop</NavLink></li>
+                            <li><NavLink to={"/services"}> Services</NavLink></li>
                             <li><NavLink to={"/contact"}> Contact</NavLink></li>
+                            <li><NavLink to={"/tc"}> Terms and Conditions</NavLink></li>
                         </ul>
                     </div>
                     <div className=" help flex">

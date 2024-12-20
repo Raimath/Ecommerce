@@ -760,7 +760,10 @@ footer {
     color: #a9a9a9;
     cursor: pointer;
 }
-
+.footer-nav-list{
+    flex-direction: column;
+    align-items: flex-start;
+}
 .socials ul li a:hover,
 .navigations ul li a:hover {
     color: white;
@@ -873,8 +876,6 @@ footer {
                        Home page service section starts
 ********************************************************************************* */
 
-.sevices-section{
-}
 
 .services-container{
     flex-direction: column;
@@ -912,3 +913,80 @@ footer {
     border-radius: 75px 0;
 }
 
+.read-btn{
+    margin: 0;
+    font-size: 1rem;
+    padding: 5px 15px 5px 15px;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    border: 2px solid black;
+    transition: all 0.3s ease-in-out;
+    color: black;
+    background-color: white;
+    text-transform: capitalize;
+    
+
+    &:hover {
+        background-color: black;
+        color: white;
+    }
+}
+/* *********************************************************************************
+                       services component page  section starts
+********************************************************************************* */
+.services-page-container{
+    flex-direction: column;
+    padding: 2% 8%;
+    gap: 20px;
+}
+.services-page-container h3{
+    font-size: 2rem;
+    text-transform: capitalize;
+    font-weight: 500;
+    text-decoration: underline;
+}
+.service{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+.service-title{
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+
+.service-content{
+    flex-direction: column;
+    gap: 15px;
+}
+.service-para{
+    margin-left: 20px;
+}
+
+/* *********************************************************************************
+                      reviews  section starts
+********************************************************************************* */
+.reviews{
+    gap: 10px;
+}
+
+.review{
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.handle{
+    margin: 0;
+    font-size: 0.9rem;
+}
+.client-review{
+    color: #575757;
+}
+.client-name{
+    font-weight: 500;
+    margin-left: 15px;
+}

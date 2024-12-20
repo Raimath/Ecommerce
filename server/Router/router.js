@@ -22,7 +22,7 @@ router.post('/login', async (req, res) => {
             }
         }
         else {
-            res.send({ message: "User Does not exist" })
+            return res.status(401).json({ message: "Invalid does not exist" });
         }
     }
     catch (err) {
@@ -56,7 +56,7 @@ router.post('/register', async (req, res) => {
         const preUser = await User.findOne({ email: email })
         console.log(preUser)
         if (preUser) {
-            res.send("User Already Exist")
+            res.send({message:"User Already Exist"})
         }
         else {
             const user = new User({

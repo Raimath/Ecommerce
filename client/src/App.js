@@ -13,6 +13,7 @@ import { SingleProduct } from './Components/SingleProduct';
 import { Shop } from './Components/Shop';
 import Footer from './Components/Footer';
 import { TC } from './Components/TC';
+import { ServicesPage } from './Components/ServicesPage';
 
 function App() {
 
@@ -32,6 +33,7 @@ function App() {
           <Route path="/cart" element={<Cart />} />
           <Route path="/shop" element={<Shop/>}/>
           <Route path="/tc" element={<TC/>}/>
+          <Route path="/services" element={<ServicesPage/>}/>
           <Route path="/singleProduct/:id" element={<SingleProduct />} />
         </Routes>
         <Footer/>

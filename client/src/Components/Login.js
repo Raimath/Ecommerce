@@ -24,23 +24,24 @@ export const Login = () => {
         if(email && password ){     
             // axios.post("http://localhost:8000/register",user).then((res)=> console.log(res))
             try{
-            const res= await fetch("https://ecommerce-backend-99w3.onrender.com/login",{
+                const res= await fetch("https://ecommerce-backend-99w3.onrender.com/login",{
                 method:'POST',
                 headers:{
                     "Content-Type":"application/json"
                 },
                 body:JSON.stringify({email,password})
-            });
-            if(res.status===200)
-            {
-                const data= await res.json()
-                console.log(data)
-                setloginInfo(data.user)
-                localStorage.setItem('id',data.user._id)
-                setisLogedin(true)
-                alert("Login succesful")
-                navigate('/home')
-            }
+                });
+              
+                if(res.status===200)
+                {
+                    const data= await res.json()
+                    console.log(data.message)
+                    setloginInfo(data.user)
+                    localStorage.setItem('id',data.user._id)
+                    setisLogedin(true)
+                    alert("Login succesful")
+                    navigate('/home')
+                }
             }catch(error){
                 alert("Invalid Username or Password")
             }
