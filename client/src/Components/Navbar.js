@@ -11,7 +11,7 @@ export const Navbar = () => {
     <>
       <nav className='navbar'>
         <div className='logo'>
-          website.com
+          Glance
         </div>
         <div className='navigations'>
           <ul>

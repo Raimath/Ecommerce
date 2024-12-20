@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     overflow-x: hidden;
@@ -27,11 +30,7 @@ nav ul li a {
 
 }
 
-/* .active {
-    color: #424242;
-    transition: all 0.2s ease-in-out;
-    border-bottom: 5px solid #424242;
-} */
+
 
 .flex {
     display: flex;
@@ -152,7 +151,7 @@ nav ul li {
     list-style: none;
     /* font-size: 20px;
     margin: 10px; */
-    padding: 2px 20px 2px 20px;
+    
     text-transform: capitalize;
     text-align: center;
     color: rgba(255, 255, 255, 0.55);
@@ -160,18 +159,19 @@ nav ul li {
 
 nav ul li a {
     color: rgba(255, 255, 255, 0.55);
-
+    padding: 5px 15px 5px 15px;
     &:hover {
         color: white;
     }
 }
 
-nav ul li:hover {
-    background-color: black;
+nav ul li:hover  a{
+    background-color: #1d1d1d;
     color: white;
     transition: all 0.5s ease-in-out;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 20px;
+    
 }
 
 nav .menu {
@@ -196,6 +196,8 @@ nav .menu {
     display: flex;
     align-items: center;
     justify-content: center;
+    gap:10px;
+
 }
 
 .nav-btn {
@@ -216,7 +218,12 @@ nav .menu {
         color: black;
     }
 }
-
+.navigations .active {
+    background-color: #1d1d1d;
+    color: white;
+    /* padding: 2px 20px 2px 20px; */
+    border-radius: 20px;
+}
 /* *********************************************************************************
                         MyAccount classes starts
 ********************************************************************************* */
@@ -705,6 +712,10 @@ a {
     flex-wrap: wrap;
 }
 
+.filter-ul .active-filter{
+    background-color: #1f1f1f;
+    color: white;
+}
 /* *********************************************************************************
                         Footer section starts
 ********************************************************************************* */
@@ -735,7 +746,7 @@ footer {
 }
 
 .socials,
-.navigations,
+.navigation,
 .help {
     flex-direction: column;
     gap: 5px;
@@ -755,7 +766,7 @@ footer {
 }
 
 .socials ul li a,
-.footer-navigations ul li a {
+.footer-navigation ul li a {
     /*! margin: 20%; */
     color: #a9a9a9;
     cursor: pointer;
@@ -765,7 +776,7 @@ footer {
     align-items: flex-start;
 }
 .socials ul li a:hover,
-.navigations ul li a:hover {
+.navigation ul li a:hover {
     color: white;
     transition: all 0.2s ease-in-out;
 }
@@ -788,13 +799,19 @@ footer {
     gap: 10px;
 }
 .address ul li svg {
-   
     color: white;
 }
-.navigations ul li{
+.navigation ul {
     list-style: none;
+    color: white;
 }
-
+.navigation a{
+    color: #a9a9a9;
+}
+.footer-nav-list .active{
+    text-decoration: underline;
+    color: whitesmoke;
+}
 /* *********************************************************************************
                         T&C section starts
 ********************************************************************************* */
@@ -990,3 +1007,4 @@ footer {
     font-weight: 500;
     margin-left: 15px;
 }
+

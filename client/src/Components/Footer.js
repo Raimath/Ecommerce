@@ -19,36 +19,36 @@ const Footer = () => {
                         <ul>
                             <li className="insta flex">
                                 <FontAwesomeIcon icon={faInstagram} size="xl" />
-                                <Link to="https://www.instagram.com/raimath_420" target="_blank" rel="noreferrer">website.com</Link>
+                                <Link to="https://www.instagram.com/raimath_420" target="_blank" rel="noreferrer">glance.com</Link>
                             </li>
 
                             <li className="linkedin flex">
                                 <FontAwesomeIcon icon={faLinkedin} size="xl" />
-                                <Link to="https://linkedin.com/in/raimath-ali/" target="_blank" rel="noreferrer">Linkedin/website.com</Link>
+                                <Link to="https://linkedin.com/in/raimath-ali/" target="_blank" rel="noreferrer">Linkedin/glance.com</Link>
                             </li>
 
                             <li className="github flex">
                                 <FontAwesomeIcon icon={faGithub} size="xl" />
-                                <Link to="https://github.com/Raimath420" target="_blank" rel="noreferrer">Github/website.com</Link>
+                                <Link to="https://github.com/Raimath420" target="_blank" rel="noreferrer">Github/glance.com</Link>
                             </li>
 
                             <li className="facebook flex">
                                 <FontAwesomeIcon icon={faFacebook} size="xl" />
-                                <Link to="https://www.facebook.com/" target="_blank" rel="noreferrer">website.com</Link>
+                                <Link to="https://www.facebook.com/" target="_blank" rel="noreferrer">glance.com</Link>
                             </li>
 
                             <li className="twitter flex">
                                 <FontAwesomeIcon icon={faTwitter} size="xl" />
-                                <Link to="https://www.twitter.com" target="_blank" rel="noreferrer">website.com</Link>
+                                <Link to="https://www.twitter.com" target="_blank" rel="noreferrer">glance.com</Link>
                             </li>
                         </ul>
                     </div>
-                    <div className="navigations footer-navigations flex">
+                    <div className="navigation footer-navigations flex">
                         <h3>Navigations</h3>
                         <ul className='footer-nav-list flex'>
                             <li><NavLink to={"/home"}> Home</NavLink></li>
                             <li><NavLink to={"/shop"}> Shop</NavLink></li>
-                            <li><NavLink to={"/services"}> Services</NavLink></li>
+                            <li><NavLink to={"/services" }> Services</NavLink></li>
                             <li><NavLink to={"/contact"}> Contact</NavLink></li>
                             <li><NavLink to={"/tc"}> Terms and Conditions</NavLink></li>
                         </ul>
@@ -69,7 +69,7 @@ const Footer = () => {
 
                             <li className="flex">
                             <FontAwesomeIcon icon={faLocationDot} size="lg"/>
-                                <address> website.com office<br/> Near Bustand GANGAVATHI<br/>  Karnataka 583253 India</address>
+                                <address> glance.com office<br/> Near Bustand GANGAVATHI<br/>  Karnataka 583253 India</address>
                             </li>
 
                             
@@ -79,7 +79,7 @@ const Footer = () => {
 
                 </div>
                 <div className="copy">
-                    <h4>Copyrights&copy; All Rights Resevered By website.com</h4>
+                    <h4>Copyrights&copy; All Rights Resevered By glance.com</h4>
                 </div>
             </footer>
         </div>

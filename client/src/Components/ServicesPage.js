@@ -28,7 +28,7 @@ export const ServicesPage = () => {
                     </div>
                     <div className='service flex '>
                         <div className='service-title title'>Quality Assurence</div>
-                        <p className='service-para'>We take pride in offering products that meet the highest quality standards. Before listing any item on our platform, it undergoes thorough quality checks to ensure durability, functionality, and design perfection. When you choose website.com, you can be confident that you’re purchasing products that deliver both style and reliability.</p>
+                        <p className='service-para'>We take pride in offering products that meet the highest quality standards. Before listing any item on our platform, it undergoes thorough quality checks to ensure durability, functionality, and design perfection. When you choose glance.com, you can be confident that you’re purchasing products that deliver both style and reliability.</p>
                     </div>
                     <div className='service flex '>
                         <div className='service-title title'>Product Availability Across Multiple Platforms</div>

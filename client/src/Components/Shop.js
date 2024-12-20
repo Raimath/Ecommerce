@@ -1,11 +1,14 @@
-import React, { useContext, useState, useEffect } from 'react'
+import React, { useContext, useState, useEffect, useMemo } from 'react'
 import { Context } from '../Context/context'
 import { Product } from '../Components/Product'
 
 export const Shop = () => {
 
     const { allProductsInfo } = useContext(Context)
-    const products = Array.isArray(allProductsInfo) ? allProductsInfo : [];
+    const products = useMemo(() => {
+        return Array.isArray(allProductsInfo) ? allProductsInfo : [];
+    }, [allProductsInfo]);
+    const [activeFilter, setActiveFilter] = useState('all'); // Track the active filter
 
     const [filters, setFilters] = useState(products);
 
@@ -14,6 +17,7 @@ export const Shop = () => {
     }, [products]);
 
     const handleFilter = (productFilter) => {
+        setActiveFilter(productFilter);
         if (productFilter === 'all') {
             setFilters(products); // If 'all', show all products
         } else {
@@ -27,14 +31,14 @@ export const Shop = () => {
                 <div className='filters flex'>
                     <div className='filter-list flex'>
                         <ul className='flex filter-ul'>
-                            <li onClick={() => handleFilter('all')}>All</li>
-                            <li onClick={() => handleFilter('t-shirt')}>T-Shirt</li>
-                            <li onClick={() => handleFilter('shirt')}>Shirt</li>
-                            <li onClick={() => handleFilter('pant')}>Pant</li>
-                            <li onClick={() => handleFilter('hoodie')}>Hoodies</li>
-                            <li onClick={() => handleFilter('jacket')}>Jacket</li>
-                            <li onClick={() => handleFilter('shoes')}>Shoes</li>
-                            <li onClick={() => handleFilter('watch')}>Watches</li>
+                            <li className={activeFilter === 'all' ? 'active-filter' : ''} onClick={() => handleFilter('all')}>All</li>
+                            <li className={activeFilter === 't-shirt' ? 'active-filter' : ''} onClick={() => handleFilter('t-shirt')}>T-Shirt</li>
+                            <li className={activeFilter === 'shirt' ? 'active-filter' : ''} onClick={() => handleFilter('shirt')}>Shirt</li>
+                            <li className={activeFilter === 'pant' ? 'active-filter' : ''} onClick={() => handleFilter('pant')}>Pant</li>
+                            <li className={activeFilter === 'hoodie' ? 'active-filter' : ''} onClick={() => handleFilter('hoodie')}>Hoodies</li>
+                            <li className={activeFilter === 'shoes' ? 'active-filter' : ''} onClick={() => handleFilter('shoes')}>Shoes</li>
+                            <li className={activeFilter === 'jacket' ? 'active-filter' : ''} onClick={() => handleFilter('jacket')}>Jacket</li>
+                            <li className={activeFilter === 'watch' ? 'active-filter' : ''} onClick={() => handleFilter('watch')}>Watches</li>
                         </ul>
                     </div>
                 </div>

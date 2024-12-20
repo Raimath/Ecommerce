@@ -14,6 +14,7 @@ import { Shop } from './Components/Shop';
 import Footer from './Components/Footer';
 import { TC } from './Components/TC';
 import { ServicesPage } from './Components/ServicesPage';
+import ScrollToTop from './Components/ScrollToTop';
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
       <BrowserRouter>
       
         <Navbar />
+        <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />
