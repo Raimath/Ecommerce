@@ -2,10 +2,11 @@ import React, { useContext, useEffect, useState} from 'react'
 import { useNavigate } from 'react-router-dom';
 import { Context } from '../Context/context'
 import { Product } from './Product'
+import { CardLoading } from './CardLoading';
 // import { Product } from './Product'
 
 export const Cart = () => {
-  const { loginInfo, allProductsInfo, setloginInfo } = useContext(Context)
+  const { loginInfo, allProductsInfo, setloginInfo,isLoading } = useContext(Context)
   const [productsInCart, setproductsInCart] = useState([])
   const navigate = useNavigate();
 
@@ -63,9 +64,7 @@ export const Cart = () => {
     <>
       <section className='section product-container-section'>
         <div className='container product-card-container flex'>
-
-          {
-            productsInCart.length === 0 ? (
+          {isLoading?(<CardLoading/>):(productsInCart.length === 0 ? (
               <p>Your cart is empty.</p>
             ) : (
               productsInCart.map((curElem,index) => {
@@ -85,7 +84,8 @@ export const Cart = () => {
                   </>
                 );
               })
-            )}
+            ))}
+          
         </div>
       </section>
     </>

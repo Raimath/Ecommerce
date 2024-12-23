@@ -1,10 +1,11 @@
 import React, { useContext, useState, useEffect, useMemo } from 'react'
 import { Context } from '../Context/context'
 import { Product } from '../Components/Product'
+import { CardLoading } from './CardLoading'
 
 export const Shop = () => {
 
-    const { allProductsInfo } = useContext(Context)
+    const { allProductsInfo,isLoading } = useContext(Context)
     const products = useMemo(() => {
         return Array.isArray(allProductsInfo) ? allProductsInfo : [];
     }, [allProductsInfo]);
@@ -43,7 +44,7 @@ export const Shop = () => {
                     </div>
                 </div>
                 <div className='container product-card-container flex'>
-                    {filters.length > 0 ? (
+                    {isLoading?(<CardLoading/>):(filters.length > 0 ? (
                         filters.map((curElem) => {
                             return (
                                 <Product
@@ -59,7 +60,8 @@ export const Shop = () => {
                         })
                     ) : (
                         "No Products Available"
-                    )}
+                    ))}
+                 
                 </div>
             </section>
         </>

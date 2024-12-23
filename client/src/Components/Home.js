@@ -17,8 +17,9 @@ export const Home = () => {
         <Slider/>
         <FeaturedProducts/>
         <Partners/>
-        <ServicesSection/>
         <ProductContainer/>
+        <hr></hr>
+        <ServicesSection/>
         <Review/>
         <Contact/>
 

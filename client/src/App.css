@@ -1008,3 +1008,44 @@ footer {
     margin-left: 15px;
 }
 
+
+
+/* *********************************************************************************
+                      loading design  section starts
+********************************************************************************* */
+.card-loading{
+    height: 385px;
+    align-items: flex-start;
+}
+
+.image-loading{
+    width: 100%;
+    height: 70%;
+
+}
+
+.title-loading{
+    width: 100%;
+    height: 15%;
+}
+
+.price-loading{
+    width: 50%;
+    height: 10%;
+}
+.image-loading,.title-loading,.price-loading{
+    background:linear-gradient(120deg,#e5e5e5 30%,#f0f0f0 38%,#f0f0f0 40%,#e5e5e5 48%);
+    background-size: 200%,100%;
+    background-position: 100%,0;
+    animation: loading 1s linear infinite ;
+}
+
+
+
+@keyframes loading {
+   
+    100%{
+        background-position: -100%,0;
+    }
+    
+}

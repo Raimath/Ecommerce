@@ -22,6 +22,7 @@ export const Product = (props) => {
         </div>
 
       </NavLink>
+      
 
     </>
   )

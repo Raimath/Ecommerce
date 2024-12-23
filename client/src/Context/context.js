@@ -3,7 +3,7 @@ export const Context = createContext()
 
 export const ContextProvider = ({ children }) => {
 
-
+    const [isLoading, setisLoading]=useState(true)
     const [loginInfo, setloginInfo] = useState({
         _id:"",
         name:"",
@@ -23,7 +23,7 @@ export const ContextProvider = ({ children }) => {
         const data = await res.json()
          
         setallProductsInfo(data.allproducts)
-        
+        setisLoading(false)
         console.log(data);
     }
 
@@ -52,7 +52,7 @@ export const ContextProvider = ({ children }) => {
         // console.log("Updated loginInfo:", loginInfo);
     }, [loginInfo]);
 
-    return <Context.Provider value={{ allProductsInfo, loginInfo, setloginInfo ,isLogedin,setisLogedin}}>
+    return <Context.Provider value={{ allProductsInfo, loginInfo, setloginInfo ,isLogedin,setisLogedin,isLoading,setisLoading}}>
         {children}
     </Context.Provider>
 }

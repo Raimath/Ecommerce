@@ -1,28 +1,28 @@
 import React from 'react'
 import { motion } from 'motion/react'
 export const Partners = () => {
+  const isMobile = window.innerWidth <= 768;
   return (
     <>
       <section className='section  partners-section flex'>
         <div className='container partners-container flex'>
           <motion.h3
-            initial={{ y: 100, opacity: 0 }}
-            whileInView={{ y: 0, opacity: 1 }}
-            transition={{
-             
+            initial={!isMobile?{ y: 100, opacity: 0 }:{}}
+            whileInView={!isMobile?{ y: 0, opacity: 1 }:{}}
+            transition={!isMobile?{
               y: { type: 'spring', stiffness: 60 },
               opacity: { duration: 1 },
               ease: 'easeIn'
-            }}
+            }:{}}
           > Our Official Partners</motion.h3>
           <motion.div className='brands flex'
-            initial={{ y: 100, opacity: 0 }}
-            whileInView={{ y: 0, opacity: 1 }}
-            transition={{
+            initial={!isMobile?{ y: 100, opacity: 0 }:{}}
+            whileInView={!isMobile?{ y: 0, opacity: 1 }:{}}
+            transition={!isMobile?{
               y: { type: 'spring', stiffness: 60,},
               opacity: { duration: 1 },
               ease: 'easeIn'
-            }} >
+            }:{}} >
             <div className='brand flex'>
               <img className='image' src='https://s.yimg.com/fz/api/res/1.2/i155bcyO_F7niI0vCmXN_A--~C/YXBwaWQ9c3JjaGRkO2ZpPWZpdDtoPTI0MDtxPTgwO3c9MzMy/https://s.yimg.com/zb/imgv1/9adafff1-85af-34ef-95cc-a848ad6b4a4d/t_500x300' alt='flipcart ' />
               <div className='brand-name'>Flipcart</div>
