@@ -1,5 +1,5 @@
 import React from 'react'
-import { easeIn, motion, spring } from "motion/react"
+import { motion } from "motion/react"
 import {NavLink} from 'react-router-dom'
 
 export const ServicesSection = () => {
