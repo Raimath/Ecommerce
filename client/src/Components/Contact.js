@@ -48,7 +48,7 @@ export const Contact = () => {
                 <section className="contact">
                     <div className="container contact-section flex">
                         <h2>Contact Us</h2>
-                        <form className=" form flex" >
+                        <form className=" form flex"  >
                             <div className="name">
                                 <label htmlFor='name'>Name:</label>
                                 <input id='name' name="name" value={user.name} type="text" placeholder="First Name" required onChange={handleChange} />

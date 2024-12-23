@@ -343,5 +343,528 @@
         {"net quantity": "1"},
         {"fabric care": "Cold water wash only"}
     ]
+},
+{
+    "_id": 20,
+    "title": " Men Regular Fit Black Lycra Blend Trousers",
+    "description": "VeBNoR presents this lycra blend stretchable fabric trouser pants for men. Feel comfortable with this trousers in any ocassion. You can wear this trouser pant for casual use tshirt and fancy shirts. Go for vacation trip or on a beach with this trouser or enjoy the softness by using this as daily use casual trouser.",
+    "price": 279,
+    "strike-price": 999,
+    "discount": 72,
+    "featured": true,
+    "category": "pant",
+    "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/trouser/6/c/z/30-tu1-vebnor-original-imah5nycd8savjmt.jpeg?q=70&crop=false",
+    "product-link": "https://www.flipkart.com/vebnor-regular-fit-men-black-trousers/p/itm7ae731358e0b1?pid=TROH5RGGRXDWZJHK&lid=LSTTROH5RGGRXDWZJHK77AUOE&marketplace=FLIPKART&q=pants&store=clo%2Fvua&srno=s_1_2&otracker=search&otracker1=search&fm=Search&iid=en_uQvNQOAkMtACNKstp6yBnGuydJIh5JV-mxNtZodO6C-Fy77TRqzSPjzqz8PmFfUaLGlSO5830HR-GFjNRVbvZQ%3D%3D&ppt=sp&ppn=sp&ssid=5b10alhu0w0000001734761060801&qH=ca425b88f047ce8e",
+    "imageurl": [
+        {
+            "id": 1,
+            "imagelink": "https://rukminim2.flixcart.com/image/416/416/xif0q/trouser/6/c/z/30-tu1-vebnor-original-imah5nycd8savjmt.jpeg?q=70&crop=false"
+        },
+        {
+            "id": 2,
+            "imagelink": "https://rukminim2.flixcart.com/image/416/416/xif0q/trouser/r/b/w/30-tu1-vebnor-original-imah5nycvbuhmkfu.jpeg?q=70&crop=false"
+        },
+        {
+            "id": 3,
+            "imagelink": "https://rukminim2.flixcart.com/image/416/416/xif0q/trouser/y/j/f/28-frml-tu1-vebnor-original-imah5rg4un2rtubt.jpeg?q=70&crop=false"
+        },
+        {
+            "id": 4,
+            "imagelink": "https://rukminim2.flixcart.com/image/416/416/xif0q/trouser/c/g/r/30-tu1-vebnor-original-imah5nycuhwfzzjy.jpeg?q=70&crop=false"
+        }
+    ],
+    "moreinfo": [
+        { "category": "pant"},
+        { "cloth type": "Lycra blend stretchable polyester fabric"},
+        {"available sizes": "28 30 32 34 38"},
+        {"color": "black"},
+        {"fit": "regular fit"},
+        {"pack of": "1"},
+        {"belt loops":"yes"},
+        {"ideal for": "men"},
+        {"pattern": "solid"},
+        {"net quantity": "1"},
+        {"fabric care": "Gentle Machine Wash"}
+    ]
+},
+{
+    "_id": 21,
+    "title": " Women Regular Fit Beige, Beige Cotton Blend Trousers",
+    "description": "VeBNoR presents this lycra blend stretchable fabric trouser pants for men. Feel comfortable with this trousers in any ocassion. You can wear this trouser pant for casual use tshirt and fancy shirts. Go for vacation trip or on a beach with this trouser or enjoy the softness by using this as daily use casual trouser.",
+    "price": 749,
+    "strike-price": 999,
+    "discount": 72,
+    "featured": true,
+    "category": "pant",
+    "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/trouser/1/g/n/28-672596-unlimited-original-imagzemvbkvurhzb.jpeg?q=70&crop=false",
+    "product-link": "https://www.flipkart.com/unlimited-regular-fit-women-beige-beige-trousers/p/itm239888ea4eff8?pid=TROGZEMVHJVSNMZF&lid=LSTTROGZEMVHJVSNMZFNHVO7B&marketplace=FLIPKART&q=pants&store=clo%2Fvua&srno=s_1_4&otracker=search&otracker1=search&fm=Search&iid=efe3a59d-236c-4515-8f2c-ae18bdf8f53b.TROGZEMVHJVSNMZF.SEARCH&ppt=sp&ppn=sp&qH=ca425b88f047ce8e",
+    "imageurl": [
+        {
+            "id": 1,
+            "imagelink": "https://rukminim2.flixcart.com/image/416/416/xif0q/trouser/1/g/n/28-672596-unlimited-original-imagzemvbkvurhzb.jpeg?q=70&crop=false"
+        },
+        {
+            "id": 2,
+            "imagelink": "https://rukminim2.flixcart.com/image/416/416/xif0q/trouser/h/r/4/28-672596-unlimited-original-imagzemvh3pthvuy.jpeg?q=70&crop=false"
+        },
+        {
+            "id": 3,
+            "imagelink": "https://rukminim2.flixcart.com/image/416/416/xif0q/trouser/v/x/p/28-672596-unlimited-original-imagzemv2hmsgm55.jpeg?q=70&crop=false"
+        },
+        {
+            "id": 4,
+            "imagelink": "https://rukminim2.flixcart.com/image/416/416/xif0q/trouser/m/q/q/28-672596-unlimited-original-imagzemvshrfuyud.jpeg?q=70&crop=false"
+        }
+    ],
+    "moreinfo": [
+        { "category": "pant"},
+        { "cloth type": "cotton blend"},
+        {"available sizes": "28 30 32 34 38"},
+        {"color": "beige"},
+        {"type": "jogger"},
+        {"fit": "regular fit"},
+        {"pack of": "1"},
+        {"ideal for": "women"},
+        {"pattern": "solid"},
+        {"net quantity": "1"},
+        {"fabric care": "Gentle Machine Wash"}
+    ]
+},
+{
+    "_id": 22,
+    "title": "Men Relaxed Green Cotton Blend Trousers",
+    "description": "Make a statement with our Men's Green Oversized Casual Pants. Wear them with a fitted black t-shirt and chunky sneakers for an effortlessly cool vibe.",
+    "price": 1475,
+    "strike-price": 1799,
+    "discount": 18,
+    "featured": true,
+    "category": "pant",
+    "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/trouser/d/m/h/28-617484-bewakoof-original-imagypztzfkbgbgy.jpeg?q=70&crop=false",
+    "product-link": "https://www.flipkart.com/bewakoof-relaxed-men-green-trousers/p/itm4ce8ecc8c0aca?pid=TROGYPZTGPFXBAWM&lid=LSTTROGYPZTGPFXBAWMPZ4XTR&marketplace=FLIPKART&q=pants&store=clo%2Fvua&srno=s_1_8&otracker=search&otracker1=search&fm=Search&iid=efe3a59d-236c-4515-8f2c-ae18bdf8f53b.TROGYPZTGPFXBAWM.SEARCH&ppt=sp&ppn=sp&qH=ca425b88f047ce8e",
+    "imageurl": [
+        {
+            "id": 1,
+            "imagelink": "https://rukminim2.flixcart.com/image/416/416/xif0q/trouser/d/m/h/28-617484-bewakoof-original-imagypztzfkbgbgy.jpeg?q=70&crop=false"
+        },
+        {
+            "id": 2,
+            "imagelink": "https://rukminim2.flixcart.com/image/416/416/xif0q/trouser/7/a/z/28-617484-bewakoof-original-imagypzthfkhztsh.jpeg?q=70&crop=false"
+        },
+        {
+            "id": 3,
+            "imagelink": "https://rukminim2.flixcart.com/image/416/416/xif0q/trouser/6/g/p/28-617484-bewakoof-original-imagypztykynmzz8.jpeg?q=70&crop=false"
+        },
+        {
+            "id": 4,
+            "imagelink": "https://rukminim2.flixcart.com/image/416/416/xif0q/trouser/e/m/s/28-617484-bewakoof-original-imagypztfds2ahc3.jpeg?q=70&crop=false"
+        }
+    ],
+    "moreinfo": [
+        {"category": "pant"},
+        {"cloth type": "cotton blend"},
+        {"Fabric Details":" 98% Cotton; 2% Spandex"},
+        {"available sizes": "28 30 32 34 38"},
+        {"color": "beige"},
+        {"type": "Casual Trousers"},
+        {"fit": "relaxed "},
+        {"pack of": "1"},
+        {"ideal for": "men"},
+        {"pattern": "solid"},
+        {"net quantity": "1"},
+        {"fabric care": "Machine wash as per tag"}
+    ]
+},{
+    "_id": 23,
+    "title": "Women Regular Fit Grey Viscose Rayon Trousers",
+    "description": "These women stylish Grey solid pant from kotty are perfect pick for you.We offer a wide range of good quality attractive imported regular length casual pant.these stylish belt regular fit pant are made with 98% polyester and 2% lycra fabric.",
+    "price": 499,
+    "strike-price": 1999,
+    "discount": 75,
+    "featured": true,
+    "category": "pant",
+    "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/trouser/e/r/e/30-kttwomenspant596-kotty-original-imah5ef7hdz2uufn.jpeg?q=70&crop=false",
+    "product-link": "https://www.flipkart.com/kotty-regular-fit-women-grey-trousers/p/itm6a649e4c8e0ef?pid=TROH5EF7YMSZDBVV&lid=LSTTROH5EF7YMSZDBVVHG8UZJ&marketplace=FLIPKART&q=pants&sattr[]=color&st=color&otracker=search",
+    "imageurl": [
+        {
+            "id": 1,
+            "imagelink": "https://rukminim2.flixcart.com/image/416/416/xif0q/trouser/e/r/e/30-kttwomenspant596-kotty-original-imah5ef7hdz2uufn.jpeg?q=70&crop=false"
+        },
+        {
+            "id": 2,
+            "imagelink": "https://rukminim2.flixcart.com/image/416/416/xif0q/trouser/b/m/c/30-kttwomenspant596-kotty-original-imah5ef7qgj7yzy2.jpeg?q=70&crop=false"
+        },
+        {
+            "id": 3,
+            "imagelink": "https://rukminim2.flixcart.com/image/416/416/xif0q/trouser/g/j/k/30-kttwomenspant596-kotty-original-imah5ef7jnhhd3zg.jpeg?q=70&crop=false"
+        },
+        {
+            "id": 4,
+            "imagelink": "https://rukminim2.flixcart.com/image/416/416/xif0q/trouser/c/f/j/30-kttwomenspant596-kotty-original-imah5ef7rhgmhzny.jpeg?q=70&crop=false"
+        }
+    ],
+    "moreinfo": [
+        {"category": "trouser"},
+        {"cloth type": "cotton blend"},
+        {"available sizes": "28 30 32 34 38"},
+        {"color": "grey"},
+        {"type": "casual Trousers"},
+        {"belt loops":"yes"},
+        {"fit": "regular fit "},
+        {"pack of": "1"},
+        {"ideal for": "women"},
+        {"pattern": "solid"},
+        {"net quantity": "1"},
+        {"fabric care": "Gentle Machine Wash"}
+    ]
+},
+{
+    "_id": 24,
+    "title": "Men Regular Fit Solid Spread Collar Casual Shirt",
+    "description": "This shirt for men is one of the top selling product from premium quality casual shirts collection exclusively manufactured by VeBNoR brand. You can use this mens shirt on jeans as well as it is appropriate as formal office wear.",
+    "price": 299,
+    "strike-price": 999,
+    "discount": 70,
+    "featured": true,
+    "category": "shirt",
+    "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/shirt/o/z/9/l-formal-shirt-metronaut-original-imah2e2d32aqdccb.jpeg?q=70&crop=false",
+    "product-link": "https://www.flipkart.com/vebnor-men-solid-casual-light-blue-shirt/p/itma15f462a75031?pid=SHTFVGBWT2ZUH58W&lid=LSTSHTFVGBWT2ZUH58WL9XJN5&marketplace=FLIPKART&q=shirt&store=clo%2Fash%2Faxc&srno=s_1_2&otracker=search&otracker1=search&fm=Search&iid=en_RijwLMagBx2ZILtQU914B3Ym8GsZYuFgVpgANWTe-hQ9PUg5CwsfsDIPi2K-VaDYqPmpzGpmPBpxcbO1uA7SZA%3D%3D&ppt=sp&ppn=sp&ssid=l8hhp5bwg00000001734764350414&qH=c9507f538a6e79c9",
+    "imageurl": [
+        {
+            "id": 1,
+            "imagelink": "https://rukminim2.flixcart.com/image/416/416/xif0q/shirt/o/z/9/l-formal-shirt-metronaut-original-imah2e2d32aqdccb.jpeg?q=70&crop=false"
+        },
+        {
+            "id": 2,
+            "imagelink": "https://rukminim2.flixcart.com/image/416/416/xif0q/shirt/s/p/u/l-formal-shirt-metronaut-original-imah2e2dhcugh82c.jpeg?q=70&crop=false"
+        },
+        {
+            "id": 3,
+            "imagelink": "https://rukminim2.flixcart.com/image/416/416/xif0q/shirt/u/o/l/m-frml-st2-vebnor-original-imah4vxjwzffz69a.jpeg?q=70&crop=false"
+        },
+        {
+            "id": 4,
+            "imagelink": "https://rukminim2.flixcart.com/image/416/416/xif0q/shirt/x/j/o/xl-st2-vebnor-original-imah7n3r6zyf3fey.jpeg?q=70&crop=false"
+        }
+    ],
+    "moreinfo": [
+        {"category": "formal shirt"},
+        {"cloth type": "cotton blend"},
+        {"available sizes": "M L XL XXL"},
+        {"color": "Light Blue"},
+        {"type": "casual Trousers"},
+        {"closure":"button"},
+        {"fit": "regular fit "},
+        {"pack of": "1"},
+        {"ideal for": "men"},
+        {"sleeves": "full sleeves"},
+        {"pattern": "solid"},
+        {"net quantity": "1"},
+        {"fabric care": "regular Machine Wash"}
+    ]
+},{
+    "_id": 25,
+    "title": "Men Regular Fit Printed Spread Collar Casual Shirt",
+    "description": "This shirt for men is one of the top selling product from premium quality casual shirts collection exclusively manufactured by VeBNoR brand. You can use this mens shirt on jeans as well as it is appropriate as formal office wear.",
+    "price": 299,
+    "strike-price": 999,
+    "discount": 70,
+    "featured": true,
+    "category": "shirt",
+    "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/shirt/y/e/h/l-st42-vebnor-original-imah4vzyhuex9h6w.jpeg?q=70&crop=false",
+    "product-link": "https://www.flipkart.com/vebnor-men-printed-casual-dark-green-shirt/p/itm59b19135186eb?pid=SHTGYHZPBWX3WZGB&lid=LSTSHTGYHZPBWX3WZGBAJXRAC&marketplace=FLIPKART&q=shirt&store=clo%2Fash%2Faxc&srno=s_1_6&otracker=search&otracker1=search&fm=Search&iid=en_RijwLMagBx2ZILtQU914B3Ym8GsZYuFgVpgANWTe-hTAr6db2pFcG4_lOvF7jGTY5o5GG1V7DsKLUQ6sUm9H8g%3D%3D&ppt=sp&ppn=sp&qH=c9507f538a6e79c9",
+    "imageurl": [
+        {
+            "id": 1,
+            "imagelink": "https://rukminim2.flixcart.com/image/416/416/xif0q/shirt/y/e/h/l-st42-vebnor-original-imah4vzyhuex9h6w.jpeg?q=70&crop=false"
+        },
+        {
+            "id": 2,
+            "imagelink": "https://rukminim2.flixcart.com/image/416/416/xif0q/shirt/9/c/q/l-st42-vebnor-original-imah4vzyeyaggwez.jpeg?q=70&crop=false"
+        },
+        {
+            "id": 3,
+            "imagelink": "https://rukminim2.flixcart.com/image/416/416/xif0q/shirt/f/o/h/l-st42-vebnor-original-imah4vzypjeaghrc.jpeg?q=70&crop=false"
+        },
+        {
+            "id": 4,
+            "imagelink": "https://rukminim2.flixcart.com/image/416/416/xif0q/shirt/p/1/g/l-st42-vebnor-original-imah4vzyyuexdw4h.jpeg?q=70&crop=false"
+        }
+    ],
+    "moreinfo": [
+        {"category": "formal shirt"},
+        {"cloth type": "Poly Viscose"},
+        {"available sizes": "M L XL XXL"},
+        {"color": "dark green"},
+        {"type": "casual Trousers"},
+        {"closure":"button"},
+        {"fit": "regular fit "},
+        {"pack of": "1"},
+        {"ideal for": "men"},
+        {"sleeves": "full sleeves"},
+        {"pattern": "solid"},
+        {"net quantity": "1"},
+        {"fabric care": "regular Machine Wash"}
+    ]
+},
+{
+    "_id": 26,
+    "title": "Men Full Sleeve Printed Hooded Sweatshirt",
+    "description": "Shop from a wide range of Hoodie from TQH Clothing Perfect for your everyday use, you could layer them over a stylish T-Shirt, Polo or Casual shirt to complete the look.",
+    "price": 532,
+    "strike-price": 1899,
+    "discount": 71,
+    "featured": true,
+    "category": "hoodie",
+    "image": "https://rukminim2.flixcart.com/image/416/416/k3ncakw0/sweatshirt/y/q/k/l-10099641-roadster-original-imafmqd87embgagg.jpeg?q=70&crop=false",
+    "product-link": "https://www.flipkart.com/roadster-full-sleeve-printed-men-sweatshirt/p/itm5df646d6b799b?pid=SWSFMQ2HJKBBBGCX&lid=LSTSWSFMQ2HJKBBBGCXRJQQIE&marketplace=FLIPKART&q=hoodies+for+men&store=clo%2Fqvw%2F64a%2Fvui&srno=s_1_3&otracker=AS_QueryStore_OrganicAutoSuggest_1_2_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_2_na_na_na&fm=search-autosuggest&iid=2845f815-b79c-40ca-be83-ab3f0e4d1a22.SWSFMQ2HJKBBBGCX.SEARCH&ppt=sp&ppn=sp&ssid=xcxcwng04w0000001734770429811&qH=e5cc40033c80f839",
+    "imageurl": [
+        {
+            "id": 1,
+            "imagelink": "https://rukminim2.flixcart.com/image/416/416/k3ncakw0/sweatshirt/y/q/k/l-10099641-roadster-original-imafmqd87embgagg.jpeg?q=70&crop=false"
+        },
+        {
+            "id": 2,
+            "imagelink": "https://rukminim2.flixcart.com/image/416/416/k3ncakw0/sweatshirt/y/q/k/l-10099641-roadster-original-imafmqd8j4djnmjz.jpeg?q=70&crop=false"
+        },
+        {
+            "id": 3,
+            "imagelink": "https://rukminim2.flixcart.com/image/416/416/k3ncakw0/sweatshirt/y/q/k/l-10099641-roadster-original-imafmqd8mycysa4h.jpeg?q=70&crop=false"
+        },
+        {
+            "id": 4,
+            "imagelink": "https://rukminim2.flixcart.com/image/416/416/k3ncakw0/sweatshirt/y/q/k/l-10099641-roadster-original-imafmqd8h93hmhyx.jpeg?q=70&crop=false"
+        }
+    ],
+    "moreinfo": [
+        {"category": "hoodie"},
+        {"cloth type": "cotton blend"},
+        {"available sizes": "M L XL XXL"},
+        {"color": "black"},
+        {"fit": "regular fit "},
+        {"neck":"hooded neck"},
+        {"pack of": "1"},
+        {"ideal for": "men"},
+        {"sleeves": "full sleeves"},
+        {"pattern": "printed"},
+        {"net quantity": "1"},
+        {"fabric care": "regular Machine Wash"}
+    ]
+},
+{
+    "_id": 27,
+    "title": "Men Full Sleeve Solid Hooded Sweatshirt",
+    "description": "Shop from a wide range of Hoodie from TQH Clothing Perfect for your everyday use, you could layer them over a stylish T-Shirt, Polo or Casual shirt to complete the look.",
+    "price": 499,
+    "strike-price": 1299,
+    "discount": 61,
+    "featured": true,
+    "category": "hoodie",
+    "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/sweatshirt/z/n/m/l-sweatshirt-727-tqh-original-imah7gbvc2wwzhrz.jpeg?q=70&crop=false",
+    "product-link": "https://www.flipkart.com/tqh-full-sleeve-solid-men-sweatshirt/p/itm57a52a5c889a1?pid=SWSH7FBCW75F4CUH&lid=LSTSWSH7FBCW75F4CUHNN9MWT&marketplace=FLIPKART&q=hoodies+for+men&store=clo%2Fqvw%2F64a%2Fvui&srno=s_1_11&otracker=AS_QueryStore_OrganicAutoSuggest_1_2_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_2_na_na_na&fm=search-autosuggest&iid=en_1qfkhAk2ZaXMMCy4wJeHsRGm3A76e-Fu8vvscKrTltS4zCgGYk7TEOuevvhalmj8Y89WkLnco39xxrfVaETQwQ%3D%3D&ppt=sp&ppn=sp&qH=e5cc40033c80f839",
+    "imageurl": [
+        {
+            "id": 1,
+            "imagelink": "https://rukminim2.flixcart.com/image/416/416/xif0q/sweatshirt/z/n/m/l-sweatshirt-727-tqh-original-imah7gbvc2wwzhrz.jpeg?q=70&crop=false"
+        },
+        {
+            "id": 2,
+            "imagelink": "https://rukminim2.flixcart.com/image/416/416/xif0q/sweatshirt/z/n/f/l-sweatshirt-727-tqh-original-imah7gbve5kf2mzp.jpeg?q=70&crop=false"
+        },
+        {
+            "id": 3,
+            "imagelink": "https://rukminim2.flixcart.com/image/416/416/xif0q/sweatshirt/s/i/f/l-sweatshirt-727-tqh-original-imah7gbvnzwhgsas.jpeg?q=70&crop=false"
+        },
+        {
+            "id": 4,
+            "imagelink": ""
+        }
+    ],
+    "moreinfo": [
+        {"category": "hoodie"},
+        {"cloth type": "cotton blend"},
+        {"available sizes": "M L XL XXL"},
+        {"color": "purple"},
+        {"fit": "regular fit "},
+        {"neck":"hooded neck"},
+        {"pack of": "1"},
+        {"ideal for": "men"},
+        {"sleeves": "full sleeves"},
+        {"pattern": "solid"},
+        {"net quantity": "1"},
+        {"fabric care": "gentle Machine Wash"}
+    ]
+},
+{
+    "_id": 28,
+    "title": "Men Colorblock Varsity Jacket",
+    "description": "This bomber jacket is perfect for winter days or just to stay warm at home on cold nights. The stand collar, 2 side pockets with front snap buttons & long sleeves with ribbed cuffs and bottom hem made up of high quality smooth fleece fabric are all details that make this jacket stand out from others.",
+    "price": 799,
+    "strike-price": 1699,
+    "discount": 52,
+    "featured": true,
+    "category": "jacket",
+    "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/jacket/j/c/n/s-no-ny-menjacketp-black-fruba-original-imagwy5fwfesf84z.jpeg?q=70&crop=false",
+    "product-link": "https://www.flipkart.com/fruba-full-sleeve-colorblock-men-jacket/p/itmda649ebb83adf?pid=JCKGWY5FPZFZAYZJ&lid=LSTJCKGWY5FPZFZAYZJFDUE6F&marketplace=FLIPKART&q=%20NY%20jacket%20&sattr[]=color&st=color",
+    "imageurl": [
+        {
+            "id": 1,
+            "imagelink": "https://rukminim2.flixcart.com/image/416/416/xif0q/jacket/j/c/n/s-no-ny-menjacketp-black-fruba-original-imagwy5fwfesf84z.jpeg?q=70&crop=false"
+        },
+        {
+            "id": 2,
+            "imagelink": "https://rukminim2.flixcart.com/image/416/416/xif0q/jacket/z/k/q/s-no-pjacket-men-blkk-city-fashion-original-imagvgn6rmsuybpu.jpeg?q=70&crop=false"
+        },
+        {
+            "id": 3,
+            "imagelink": "https://rukminim2.flixcart.com/image/416/416/xif0q/jacket/z/n/j/xl-no-njacket-ymen-blk-city-fashion-original-imagvgn6pnt3nvgs.jpeg?q=70&crop=false"
+        },
+        {
+            "id": 4,
+            "imagelink": "https://rukminim2.flixcart.com/image/416/416/xif0q/jacket/0/3/m/xl-no-njacket-ymen-blk-city-fashion-original-imagvgn6gzmqtpcs.jpeg?q=70&crop=false"
+        }
+    ],
+    "moreinfo": [
+        {"category": "jacket"},
+        {"cloth type": "Fleece"},
+        {"available sizes": "M L XL XXL"},
+        {"color": "black, white"},
+        {"fit": "regular fit "},
+        {"neck":"stand collar"},
+        {"closure":"button"},
+        {"pack of": "1"},
+        {"ideal for": "men"},
+        {"sleeves": "full sleeves"},
+        {"pattern": "solid"},
+        {"net quantity": "1"},
+        {"fabric care": "Cold Water Wash Only"}
+    ]
+},
+{
+    "_id": 29,
+    "title": "Women Colorblock Casual Jacket",
+    "description": "Fashion with our Women's Varsity Jacket featuring full-length sleeves and showcasing the latest style trends. Elevate your wardrobe with this iconic piece that seamlessly blends comfort and style. Crafted with precision and attention to detail.",
+    "price": 499,
+    "strike-price": 1299,
+    "discount": 61,
+    "featured": true,
+    "category": "jacket",
+    "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/jacket/6/b/k/l-no-jacketpl-wmen-pch-24hour-fashion-original-imagwhc6pm7hrtns.jpeg?q=70&crop=false",
+    "product-link": "https://www.flipkart.com/24hour-fashion-full-sleeve-colorblock-women-jacket/p/itmac0cb4c3ad0b5?pid=JCKGWHC7JNCD8N3D&lid=LSTJCKGWHC7JNCD8N3DNJMGL5&marketplace=FLIPKART&q=+NY+jacket+&store=clo%2Fqvw%2Fz0g&srno=s_1_20&otracker=search&otracker1=search&fm=Search&iid=76a4532a-63ed-4cef-aa55-1eb65d4af833.JCKGWHC7JNCD8N3D.SEARCH&ppt=sp&ppn=sp&qH=23634b74726991d6",
+    "imageurl": [
+        {
+            "id": 1,
+            "imagelink": "https://rukminim2.flixcart.com/image/416/416/xif0q/jacket/6/b/k/l-no-jacketpl-wmen-pch-24hour-fashion-original-imagwhc6pm7hrtns.jpeg?q=70&crop=false"
+        },
+        {
+            "id": 2,
+            "imagelink": "https://rukminim2.flixcart.com/image/416/416/xif0q/jacket/c/i/t/m-no-jacketpl-wmen-pch-24hour-fashion-original-imagwhc6jkdgrzzm.jpeg?q=70&crop=false"
+        },
+        {
+            "id": 3,
+            "imagelink": "https://rukminim2.flixcart.com/image/416/416/xif0q/jacket/d/d/d/m-no-jacketpl-wmen-pch-24hour-fashion-original-imagwhc6tfzhqmy8.jpeg?q=70&crop=false"
+        },
+        {
+            "id": 4,
+            "imagelink": "https://rukminim2.flixcart.com/image/416/416/xif0q/jacket/1/9/g/m-no-jacketpl-wmen-pch-24hour-fashion-original-imagwhc6hfwawyty.jpeg?q=70&crop=false"
+        }
+    ],
+    "moreinfo": [
+        {"category": "jacket"},
+        {"cloth type": "Fleece"},
+        {"available sizes": "M L XL XXL"},
+        {"color": "multicolor"},
+        {"fit": "regular fit "},
+        {"neck":"stand collar"},
+        {"closure":"button"},
+        {"pack of": "1"},
+        {"ideal for": "women"},
+        {"sleeves": "full sleeves"},
+        {"pattern": "colorblock"},
+        {"net quantity": "1"},
+        {"fabric care": "Cold Water Wash Only"}
+    ]
+},
+{
+    "_id": 30,
+    "title": "Midnight Black Dial Silicon Mesh Strap  Wrinkle-Free Strap ",
+    "description": "Midnight Black Dial | Silicon Mesh Strap | Wrinkle-Free Strap | Minimalism | Premium | Scratch Resistant | Water Resistant | 1 Year Quartz Machinery Warranty | Gifts | Trending | Festival Sale | Boys Series.",
+    "price": 204,
+    "strike-price": 1499,
+    "discount": 86,
+    "featured": true,
+    "category": "watch",
+    "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/watch/g/1/l/-original-imagrk9rysrndfev.jpeg?q=70&crop=false",
+    "product-link": "https://www.flipkart.com/24hour-fashion-full-sleeve-colorblock-women-jacket/p/itmac0cb4c3ad0b5?pid=JCKGWHC7JNCD8N3D&lid=LSTJCKGWHC7JNCD8N3DNJMGL5&marketplace=FLIPKART&q=+NY+jacket+&store=clo%2Fqvw%2Fz0g&srno=s_1_20&otracker=search&otracker1=search&fm=Search&iid=76a4532a-63ed-4cef-aa55-1eb65d4af833.JCKGWHC7JNCD8N3D.SEARCH&ppt=sp&ppn=sp&qH=23634b74726991d6",
+    "imageurl": [
+        {
+            "id": 1,
+            "imagelink": "https://rukminim2.flixcart.com/image/416/416/xif0q/watch/g/1/l/-original-imagrk9rysrndfev.jpeg?q=70&crop=false"
+        },
+        {
+            "id": 2,
+            "imagelink": "https://rukminim2.flixcart.com/image/416/416/xif0q/watch/s/g/y/-original-imahy74rrcjfq73z.jpeg?q=70&crop=false"
+        },
+        {
+            "id": 3,
+            "imagelink": "https://rukminim2.flixcart.com/image/416/416/xif0q/watch/t/s/b/-original-imaghny5twjtgqgq.jpeg?q=70&crop=false"
+        },
+        {
+            "id": 4,
+            "imagelink": "https://rukminim2.flixcart.com/image/416/416/xif0q/watch/r/p/q/anlg-483-blue-analogue-men-original-imafzsknpjt7q8aw.jpeg?q=70&crop=false"
+        }
+    ],
+    "moreinfo": [
+        {"category": "watch"},
+        {"display type":"analog"},
+        {"watch type":"wrist watch"},
+        {"color": "black"},
+        {"Strap Color":"Black"},
+        {"Dial Color":"Black"},
+        {"Strap Type":"Silicon"},
+        {"Shock Resistance":"Yes "},
+        {"Warranty Period":"12 Months( 1 Year)"},
+        {"pack of": "1"},
+        {"ideal for": "men"},
+        {"net quantity": "1"}
+    ]
+},
+{
+    "_id": 31,
+    "title": "High Tops For Men  (Grey, Black , 9)",
+    "description": "Midnight Black Dial | Silicon Mesh Strap | Wrinkle-Free Strap | Minimalism | Premium | Scratch Resistant | Water Resistant | 1 Year Quartz Machinery Warranty | Gifts | Trending | Festival Sale | Boys Series.",
+    "price": 749,
+    "strike-price": 2955,
+    "discount": 74,
+    "featured": true,
+    "category": "shoes",
+    "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/shopsy-shoe/u/u/f/7-spsy-1102-zixer-grey-original-imagqwxtswqrhuzk.jpeg?q=70&crop=false",
+    "product-link": "https://www.flipkart.com/24hour-fashion-full-sleeve-colorblock-women-jacket/p/itmac0cb4c3ad0b5?pid=JCKGWHC7JNCD8N3D&lid=LSTJCKGWHC7JNCD8N3DNJMGL5&marketplace=FLIPKART&q=+NY+jacket+&store=clo%2Fqvw%2Fz0g&srno=s_1_20&otracker=search&otracker1=search&fm=Search&iid=76a4532a-63ed-4cef-aa55-1eb65d4af833.JCKGWHC7JNCD8N3D.SEARCH&ppt=sp&ppn=sp&qH=23634b74726991d6",
+    "imageurl": [
+        {
+            "id": 1,
+            "imagelink": "https://rukminim2.flixcart.com/image/416/416/xif0q/shopsy-shoe/u/u/f/7-spsy-1102-zixer-grey-original-imagqwxtswqrhuzk.jpeg?q=70&crop=false"
+        },
+        {
+            "id": 2,
+            "imagelink": "https://rukminim2.flixcart.com/image/416/416/xif0q/shopsy-shoe/c/j/a/7-spsy-1102-zixer-grey-original-imagqwxtx5jgypha.jpeg?q=70&crop=false"
+        },
+        {
+            "id": 3,
+            "imagelink": "https://rukminim2.flixcart.com/image/416/416/xif0q/shopsy-shoe/j/e/8/7-spsy-1102-zixer-grey-original-imagqwxttxex2zxd.jpeg?q=70&crop=false"
+        },
+        {
+            "id": 4,
+            "imagelink": "https://rukminim2.flixcart.com/image/416/416/xif0q/shopsy-shoe/j/e/8/7-spsy-1102-zixer-grey-original-imagqwxttxex2zxd.jpeg?q=70&crop=false"
+        }
+    ],
+    "moreinfo": [
+        {"category": "shoes"},
+        {"Outer material":"Synthetic Leather"},
+        {"Occasion":"Casual"},
+        {"ideal for": "men"},
+        {"Type For Casual":"High Tops"}
+    ]
 }
+
+
 ]
