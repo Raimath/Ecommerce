@@ -15,6 +15,7 @@ import Footer from './Components/Footer';
 import { TC } from './Components/TC';
 import { ServicesPage } from './Components/ServicesPage';
 import ScrollToTop from './Components/ScrollToTop';
+import { ContactUs } from './Components/ContactUs';
 
 function App() {
 
@@ -31,6 +32,7 @@ function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/contactus" element={<ContactUs />} />
           <Route path="/account" element={<MyAccount />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/shop" element={<Shop/>}/>

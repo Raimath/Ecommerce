@@ -18,8 +18,7 @@ export const Navbar = () => {
             <li><NavLink to="/home">Home</NavLink></li>
             <li><NavLink to="/shop">Shop</NavLink></li>
             <li><NavLink to='/services'>Services</NavLink></li>
-            
-            <li><NavLink to="/contact" >Contact</NavLink></li>
+            <li><NavLink to="/contactUs" >Contact</NavLink></li>
             <li><NavLink to="/cart" >My Carts</NavLink></li>
             {(isLogedin) ? ( <NavLink to="/account" className='nav-images'><img src={profileImage} alt='' /></NavLink>
             ) : (<NavLink to="/login" className=" nav-btn" alt=''>Login</NavLink>)}

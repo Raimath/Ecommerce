@@ -1,4 +1,4 @@
-import React, { useContext, useState } from 'react'
+import React, { useContext } from 'react'
 import { Product } from './Product'
 import { Context } from '../Context/context'
 import { CardLoading } from './CardLoading'
@@ -6,9 +6,9 @@ import { CardLoading } from './CardLoading'
 export const ProductContainer = () => {
 
     
-    const { allProductsInfo, isLoading, setisLoading } = useContext(Context)
+    const { allProductsInfo, isLoading } = useContext(Context)
     const products = Array.isArray(allProductsInfo) ? allProductsInfo : [];
-    console.log(isLoading)
+  
 
     return (
         <>

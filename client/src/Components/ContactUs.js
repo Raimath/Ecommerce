@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState } from 'react'
 
-export const Contact = () => {
+export const ContactUs = () => {
     // const [contactuser,setcontactuser]=useState()
     const [user, setUser] = useState({
         name: "",
@@ -46,6 +46,7 @@ export const Contact = () => {
          
             <div className='contactSection'>
                 <section className="contact flex">
+                <iframe title='map' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3218.3424407171983!2d76.53132142579027!3d15.423599353910765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bb781717898374d%3A0x4c853d098a87cab6!2sGangavati%20Bus%20stand!5e0!3m2!1sen!2sin!4v1735048581890!5m2!1sen!2sin" width="100%" height="100%" style={{border:0}} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
                     <div className="container contact-section flex">
                         <h2>Contact Us</h2>
                         <form className=" form flex">

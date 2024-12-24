@@ -1,9 +1,11 @@
 import React, { useContext ,useState} from 'react'
 import { NavLink, useNavigate } from 'react-router-dom'
 import { Context } from '../Context/context'
+import { FormLoader } from './FormLoader';
 
 export const Login = () => {
     const {setloginInfo,setisLogedin}=useContext(Context);
+        const [formLoading, setformLoading] = useState(false)
 
     const navigate = useNavigate();
     const[user,setUser]=useState({
@@ -21,6 +23,7 @@ export const Login = () => {
     const handleLogin =async(e)=>{
         const{email,password}=user
         e.preventDefault();
+        setformLoading(true)
         if(email && password ){     
             // axios.post("http://localhost:8000/register",user).then((res)=> console.log(res))
             try{
@@ -32,8 +35,10 @@ export const Login = () => {
                 body:JSON.stringify({email,password})
                 });
                 const data= await res.json()
+                
                 if(res.status!==200)
                 {
+                    setformLoading(false)
                     alert(data.message)
                 }
                 if(res.status===200)
@@ -42,14 +47,17 @@ export const Login = () => {
                     setloginInfo(data.user)
                     localStorage.setItem('id',data.user._id)
                     setisLogedin(true)
+                    setformLoading(false)
                     alert("Login succesful")
                     navigate('/home')
                 }
             }catch(error){
+                setformLoading(false)
                 alert("Invalid Username or Password")
             }
         }
         else{
+            setformLoading(false)
             alert("Invalid input")
         }
     }
@@ -66,6 +74,7 @@ export const Login = () => {
                 <div className="container contact-section flex" >
                     <h2>Login</h2>
                     <form className=" form flex" >
+                        {formLoading ? (<FormLoader/>) : ("")}
                         <div className="name">
                             <label htmlFor='email'>Email:</label>
                             <input id='email' name="email" value={user.email} type="email"  placeholder="Email"required onChange={handleChange}/>
