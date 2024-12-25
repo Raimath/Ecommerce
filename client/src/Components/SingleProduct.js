@@ -69,6 +69,7 @@ export const SingleProduct = () => {
         body: JSON.stringify({ userid, productid })
       });
       const data = await res.json()
+      // eslint-disable-next-line 
       const data2 = await setloginInfo({ carts: data.carts })
       alert('Product added')
     }

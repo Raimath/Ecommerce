@@ -224,6 +224,17 @@ nav .menu {
     /* padding: 2px 20px 2px 20px; */
     border-radius: 20px;
 }
+.menu-icons{
+    color: white;
+    cursor: pointer;
+    display: none;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.show-menu{
+    display: flex;
+}
 /* *********************************************************************************
                         MyAccount classes starts
 ********************************************************************************* */
@@ -568,7 +579,6 @@ iframe {
     background-color: #f6f6f6;
     flex-direction: column;
     gap: 10px;
-    min-height: 70vh;
 
 }
 
@@ -1065,3 +1075,144 @@ footer {
     
 }
 
+
+
+/* *********************************************************************************
+                      Responsive design  section starts
+********************************************************************************* */
+@media  only screen and (max-width:950px){
+    .navigations{
+        display: none;
+    }
+    .menu-icons{
+        display: flex;
+        margin: 0 35px;
+        align-items: center;
+        justify-content: center;
+    }
+    .show-menu {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 30px;
+        background-color: #38383b;
+        border-radius: 5px;
+        width: 100%;
+    }
+    .show-menu ul{
+        display: flex;
+        flex-direction: column;
+    }
+    .navbar{
+        align-items: baseline;
+    }
+    .resposive-nav{
+        position: absolute;
+        right: 0%;
+        top: 30%;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        align-items: flex-end;
+        
+    }
+    .cart input {
+        padding: 12px;
+    }
+    .more-info table {
+        min-width: 105%;
+        
+    }
+   
+  }
+  
+  @media  only screen and (max-width:800px){
+   
+    .container{
+        width: 90%;
+
+    }
+    .services-card-container{
+        width: 100%;
+    }
+    .product-container {
+        grid-template-columns: 1fr;
+    }
+    .product-content {
+        padding: 2% 5%;
+    }
+    .main-image img {
+        width: 60vw;
+    }
+    .buttons {
+        display: grid;
+        gap: 20px;
+        width: 100%;
+        grid-template-columns: 1fr 1fr;
+    }
+    .product-card-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+  
+  @media  only screen and (max-width:720px){
+    
+  
+   .footer-section{
+       width: 90%;
+       height: 100%;
+       justify-content: space-between;
+       /*! align-items: center; */
+       color: #adadda;
+       flex-wrap: wrap;
+    }
+  }
+  
+  @media  only screen and (max-width:600px){
+ 
+    .product-card-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .product-card img {
+        width: 35vw;
+    }
+    .container{
+        width: 100%;
+    }
+    .sevices-section{
+        display: none;
+    }
+  
+  
+  }
+  
+  @media  only screen and (max-width:360px){
+  
+    
+  
+    
+    
+    
+    footer{
+        padding: 10px;
+    }
+  
+    .socials, .navigations, .help {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+  
+    .footer-section {
+        width: 100%;
+    }
+  
+    .footer-section h3 {
+        margin-left: 20px;
+    }
+  
+
+  }

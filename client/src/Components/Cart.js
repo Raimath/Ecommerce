@@ -28,8 +28,9 @@ export const Cart = () => {
 
   useEffect(() => {
     getCartDetails()
+     // eslint-disable-next-line
   }, [loginInfo, allProductsInfo])
-  // eslint-disable-next-line
+ 
 
   const handleRemove = async (productid) => {
 
@@ -51,6 +52,7 @@ export const Cart = () => {
         },
         body: JSON.stringify({ userid, newItems})
       });
+      // eslint-disable-next-line 
       const data = await res.json()
       alert('Product Removed from cart')
     }
