@@ -5,7 +5,7 @@ export const Review = () => {
   const isMobile = window.innerWidth <= 768;
   return (
     <>
-      <section className='section  partners-section flex'>
+      <section className='section review-section partners-section flex'>
         <div className='container partners-container flex'>
           <motion.h3
             initial={!isMobile ? { y: 100, opacity: 0 } : {}}

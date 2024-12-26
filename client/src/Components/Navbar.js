@@ -14,9 +14,9 @@ export const Navbar = () => {
   return (
     <>
       <nav className='navbar'>
-        <div className='logo'>
+        <NavLink to={'/'} className='logo'>
           Glance
-        </div>
+        </NavLink>
         <div className='resposive-nav'>
           <div className='menu-icons' >
             {!showMenu ? (<FontAwesomeIcon icon={faBars} size='xl' onClick={() => { setshowMenu(!showMenu) }}/>) : (<FontAwesomeIcon icon={faXmark} size='xl' onClick={() => { setshowMenu(!showMenu) }}/>)}

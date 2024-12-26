@@ -5,16 +5,23 @@ import { CardLoading } from './CardLoading'
 
 export const Shop = () => {
 
-    const { allProductsInfo,isLoading } = useContext(Context)
+    const { allProductsInfo,isLoading ,collections} = useContext(Context)
+    const [activeFilter, setActiveFilter] = useState(collections||'all'); // Track the active filter
+
+    console.log(activeFilter ,collections)
     const products = useMemo(() => {
         return Array.isArray(allProductsInfo) ? allProductsInfo : [];
     }, [allProductsInfo]);
-    const [activeFilter, setActiveFilter] = useState('all'); // Track the active filter
 
     const [filters, setFilters] = useState(products);
 
     useEffect(() => {
         setFilters(products);
+        if(collections!=='')
+        {
+            handleFilter(collections)
+        }
+        // eslint-disable-next-line
     }, [products]);
 
     const handleFilter = (productFilter) => {

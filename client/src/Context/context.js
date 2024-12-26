@@ -4,6 +4,7 @@ export const Context = createContext()
 export const ContextProvider = ({ children }) => {
 
     const [isLoading, setisLoading]=useState(true)
+    const [collections, setcollections]=useState('')
     const [loginInfo, setloginInfo] = useState({
         _id:"",
         name:"",
@@ -52,7 +53,7 @@ export const ContextProvider = ({ children }) => {
         // console.log("Updated loginInfo:", loginInfo);
     }, [loginInfo]);
 
-    return <Context.Provider value={{ allProductsInfo, loginInfo, setloginInfo ,isLogedin,setisLogedin,isLoading,setisLoading}}>
+    return <Context.Provider value={{ allProductsInfo, loginInfo, setloginInfo ,isLogedin,setisLogedin,isLoading,setisLoading,collections,setcollections}}>
         {children}
     </Context.Provider>
 }

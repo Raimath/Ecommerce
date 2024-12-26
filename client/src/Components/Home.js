@@ -6,6 +6,7 @@ import {Contact} from './Contact'
 import { Partners } from './Partners';
 import { Review } from './Review';
 import { ServicesSection } from './ServicesSection';
+import { Collections } from './Collections';
 
 export const Home = () => {
   
@@ -15,6 +16,7 @@ export const Home = () => {
   return (
     <>
         <Slider/>
+        <Collections/>
         <FeaturedProducts/>
         <Partners/>
         <ProductContainer/>

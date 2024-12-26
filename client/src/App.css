@@ -111,15 +111,15 @@ h2 {
 h2::before {
     content: "";
     position: absolute;
-    bottom: 0%;
+    bottom: 15%;
     left: 0%;
-    height: 5px;
+    height: 3px;
     width: 140px;
     background: #38383b;
     border-radius: 2px;
 }
 
-h2::after {
+/* h2::after {
     content: "";
     position: absolute;
     bottom: -10%;
@@ -128,7 +128,7 @@ h2::after {
     width: 15px;
     background: #38383b;
     border-radius: 34px;
-}
+} */
 
 
 
@@ -1075,6 +1075,71 @@ footer {
     
 }
 
+/* *********************************************************************************
+                      Collectons page  section starts
+********************************************************************************* */
+.collections-container{
+    flex-direction: column;
+}
+.collections-box-container {
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+    padding: 30px;
+    transition: all 0.5s ease-in-out;
+}
+
+.collections-box {
+    flex-direction: column;
+    border: 2px solid #d3d3d3;
+    transition: all 0.5s ease-in-out;
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.collections-box:hover {
+    transform: scale(1.05);
+}
+
+.collections-box img {
+    width: 250px;
+    height: 250px;
+    transition: transform 0.5s ease-in-out;
+}
+
+.collections-box:hover img {
+    transform: scale(1.1);
+}
+
+.collections-box .collections-para {
+    position: absolute;
+    bottom: 0;
+    left: -5px;
+    background-color: rgba(212, 212, 212, 0.8);
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    opacity: 0;
+    transform: translateY(100%); 
+    transition: all 0.5s ease-in-out; 
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.collections-box:hover .collections-para {
+    opacity: 1;
+    transform: translateY(0); 
+}
+
+.collections-box-container a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none; /* Prevents underline on links */
+    transition: all 0.5s ease-in-out;
+}
+
 
 
 /* *********************************************************************************
@@ -1181,19 +1246,102 @@ footer {
     .container{
         width: 100%;
     }
-    .sevices-section{
-        display: none;
+    .services-card {
+        margin: 10px;
+        gap: 10px;
+        padding: 10px;
     }
+    nav{
+        padding: 7px 15px;
+    }
+    .collections-box-container {
+        padding: 30px 0;
+    }
+    .collections-box img {
+        width: 200px;
+        height: 200px;
+        transition: transform 0.5s ease-in-out;
+    }
+   
+}
   
-  
+  @media  only screen and (max-width:450px){
+    .collections-box img {
+        width: 135px;
+        height: 135px;
+    }
+    .collections-box .collections-para {
+        opacity: 1;
+        transform: translateY(0); 
+        background-color: rgba(0, 0, 0, 0.2);
+        font-weight: 800;
+        color: rgb(255, 255, 255);
+        padding: 5px;
+        
+    }
+    
   }
   
   @media  only screen and (max-width:360px){
-  
-    
-  
-    
-    
+
+    .buttons input, .buttons a input {
+        padding: 10px;
+        font-weight: bolder;
+    }
+    .main-image img {
+        width: 70vw;
+    }
+    .title {
+        font-size: 1.2rem;
+    }
+    .more-info h3 {
+        font-size: 20px;
+    }
+    .product-card {
+        margin: 5px;
+        padding: 20px 10px;
+        
+    }
+    .product-card img {
+       width: 100%;
+    }
+    h2 {
+        font-size: 1.2rem;
+    }
+    .services-container {
+        padding: 10px 0;
+    }
+    .services-card {
+        margin: 5px;
+    }
+    .services-card {
+        border-radius: 0 50px;
+        border: 3px solid black;
+    }
+    .radius {
+        border-radius: 50px 0;
+    }
+    p {
+        line-height: 20px;
+        margin-left: 0px;
+    }
+    .collections-box .collections-para {
+        opacity: 1;
+        transform: translateY(0); 
+        background-color: rgba(0, 0, 0, 0.2);
+        font-weight: 800;
+        color: rgb(255, 255, 255);
+        padding: 5px;
+        
+    }
+
+
+    .product-card {
+        border: 1px solid #d4d4d4;
+        border-radius: 5px;
+        box-shadow: none;
+    }
+
     
     footer{
         padding: 10px;
@@ -1213,6 +1361,19 @@ footer {
     .footer-section h3 {
         margin-left: 20px;
     }
-  
+    .review-section{
+        display: none;
+    }
 
+  }
+
+  
+  @media  only screen and (max-width:300px){
+    .services-card-container {
+        grid-template-columns: 1fr;
+    }
+    .product-card-container {
+        grid-template-columns:  1fr;
+    }
+   
   }
