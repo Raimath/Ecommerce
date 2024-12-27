@@ -5,7 +5,7 @@ import { SuggestedProducts } from './SuggestedProducts'
 
 export const SingleProduct = () => {
   const { id } = useParams({})
-  const { loginInfo, setloginInfo } = useContext(Context)
+  const { loginInfo, setloginInfo,isLoading,setisLoading } = useContext(Context)
   const [productdata, setproductdata] = useState({
     "_id":"",
     "title": "",
@@ -45,7 +45,6 @@ export const SingleProduct = () => {
         "product-link":data.singleproduct["product-link"]
       })
       setMainImage(data.singleproduct.imageurl[0].imagelink)
-     
     } catch (err) {
       console.log(err)
     }
@@ -94,7 +93,9 @@ export const SingleProduct = () => {
                 {mainImage ? (
                   <img src={mainImage} alt="Product " />
                 ) : (
-                  <div>No image available</div> // Optional fallback message or placeholder
+                  <div>
+                    
+                    Images loading..</div> // Optional fallback message or placeholder
                 )}
               </div>
 
@@ -105,7 +106,7 @@ export const SingleProduct = () => {
                     imageUrl ? (
                       <img key={id} src={imageUrl} onMouseOver={() => setMainImage(imageUrl)} alt="product thumbnail" />
                     ) : (
-                      <div key={id}>No image available</div> // Optional fallback for each thumbnail
+                      <div key={id}></div> // Optional fallback for each thumbnail
                     )
                   );
                 })}

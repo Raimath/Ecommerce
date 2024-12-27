@@ -10,6 +10,7 @@ export const Review = () => {
           <motion.h3
             initial={!isMobile ? { y: 100, opacity: 0 } : {}}
             whileInView={!isMobile ? { y: 0, opacity: 1 } : {}}
+            viewport={{ once: true }}
             transition={!isMobile ? {
               y: { type: 'spring', stiffness: 60 },
               opacity: { duration: 1, delay: 0.2, },
@@ -18,6 +19,7 @@ export const Review = () => {
           <motion.div className='reviews flex'
             initial={!isMobile ? { y: 100, opacity: 0 } : {}}
             whileInView={!isMobile ? { y: 0, opacity: 1 } : {}}
+            viewport={{ once: true }}
             transition={!isMobile ? {
               y: { type: 'spring', stiffness: 60 },
               opacity: { duration: 1, delay: 0.2, },

@@ -14,6 +14,7 @@ export const ServicesSection = () => {
                           <div>
                             <motion.svg initial={!isMobile?{ y: 100, opacity: 0 }:{}}
                             whileInView={!isMobile?{ y: 0, opacity: 1 }:{}}
+                            viewport={{ once: true }}
                             transition={!isMobile?{
                               y: { type: 'spring', stiffness: 60 },
                               opacity: { duration: 1 ,delay: 0.2,},
@@ -27,6 +28,7 @@ export const ServicesSection = () => {
                             <motion.div className='services-card-title title '
                             initial={!isMobile?{ y: 100, opacity: 0 }:{}}
                             whileInView={!isMobile?{ y: 0, opacity: 1 }:{}}
+                            viewport={{ once: true }}
                             transition={!isMobile?{
                               y: { type: 'spring', stiffness: 60 },
                               opacity: { duration: 1 ,delay: 0.2,},
@@ -35,6 +37,7 @@ export const ServicesSection = () => {
                             <motion.p
                             initial={!isMobile?{ y: 100, opacity: 0 }:{}}
                             whileInView={!isMobile?{ y: 0, opacity: 1 }:{}}
+                            viewport={{ once: true }}
                             transition={!isMobile?{
                               y: { type: 'spring', stiffness: 60 },
                               opacity: { duration: 1,delay: 0.3},
@@ -45,6 +48,7 @@ export const ServicesSection = () => {
                          <div className='services-card flex'>
                             <motion.svg initial={!isMobile?{ y: 100, opacity: 0 }:{}}
                             whileInView={!isMobile?{ y: 0, opacity: 1 }:{}}
+                            viewport={{ once: true }}
                             transition={!isMobile?{
                               y: { type: 'spring', stiffness: 60 },
                               opacity: { duration: 1 ,delay: 0.2,},
@@ -61,6 +65,7 @@ export const ServicesSection = () => {
                             <motion.div className='services-card-title title'
                             initial={!isMobile?{ y: 100, opacity: 0 }:{}}
                             whileInView={!isMobile?{ y: 0, opacity: 1 }:{}}
+                            viewport={{ once: true }}
                             transition={!isMobile?{
                               y: { type: 'spring', stiffness: 60 },
                               opacity: { duration: 1 ,delay: 0.2,},
@@ -69,6 +74,7 @@ export const ServicesSection = () => {
                             <motion.p
                             initial={!isMobile?{ y: 100, opacity: 0 }:{}}
                             whileInView={!isMobile?{ y: 0, opacity: 1 }:{}}
+                            viewport={{ once: true }}
                             transition={!isMobile?{
                               y: { type: 'spring', stiffness: 60 },
                               opacity: { duration: 1,delay: 0.3},
@@ -78,6 +84,7 @@ export const ServicesSection = () => {
                         <div className='services-card flex'>
                             <motion.svg initial={!isMobile?{ y: 100, opacity: 0 }:{}}
                             whileInView={!isMobile?{ y: 0, opacity: 1 }:{}}
+                            viewport={{ once: true }}
                             transition={!isMobile?{
                               y: { type: 'spring', stiffness: 60 },
                               opacity: { duration: 1 ,delay: 0.2,},
@@ -91,6 +98,7 @@ export const ServicesSection = () => {
                             <motion.div className='services-card-title title'
                             initial={!isMobile?{ y: 100, opacity: 0 }:{}}
                             whileInView={!isMobile?{ y: 0, opacity: 1 }:{}}
+                            viewport={{ once: true }}
                             transition={!isMobile?{
                               y: { type: 'spring', stiffness: 60 },
                               opacity: { duration: 1 ,delay: 0.2,},
@@ -99,6 +107,7 @@ export const ServicesSection = () => {
                             <motion.p 
                             initial={!isMobile?{ y: 100, opacity: 0 }:{}}
                             whileInView={!isMobile?{ y: 0, opacity: 1 }:{}}
+                            viewport={{ once: true }}
                             transition={!isMobile?{
                               y: { type: 'spring', stiffness: 60 },
                               opacity: { duration: 1,delay: 0.3},
@@ -108,6 +117,7 @@ export const ServicesSection = () => {
                         <div className='services-card  flex radius'>
                             <motion.svg initial={!isMobile?{ y: 100, opacity: 0 }:{}}
                             whileInView={!isMobile?{ y: 0, opacity: 1 }:{}}
+                            viewport={{ once: true }}
                             transition={!isMobile?{
                               y: { type: 'spring', stiffness: 60 },
                               opacity: { duration: 1 ,delay: 0.2,},
@@ -118,6 +128,7 @@ export const ServicesSection = () => {
                             <motion.div  className='services-card-title title'
                             initial={!isMobile?{ y: 100, opacity: 0 }:{}}
                             whileInView={!isMobile?{ y: 0, opacity: 1 }:{}}
+                            viewport={{ once: true }}
                             transition={!isMobile?{
                               y: { type: 'spring', stiffness: 60 },
                               opacity: { duration: 1 ,delay: 0.2,},
@@ -126,6 +137,7 @@ export const ServicesSection = () => {
                             <motion.p
                             initial={!isMobile?{ y: 100, opacity: 0 }:{}}
                             whileInView={!isMobile?{ y: 0, opacity: 1 }:{}}
+                            viewport={{ once: true }}
                             transition={!isMobile?{
                               y: { type: 'spring', stiffness: 60 },
                               opacity: { duration: 1,delay: 0.3},

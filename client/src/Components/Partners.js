@@ -9,6 +9,7 @@ export const Partners = () => {
           <motion.h3
             initial={!isMobile?{ y: 100, opacity: 0 }:{}}
             whileInView={!isMobile?{ y: 0, opacity: 1 }:{}}
+             viewport={{ once: true }}
             transition={!isMobile?{
               y: { type: 'spring', stiffness: 60 },
               opacity: { duration: 1 },
@@ -18,6 +19,7 @@ export const Partners = () => {
           <motion.div className='brands flex'
             initial={!isMobile?{ y: 100, opacity: 0 }:{}}
             whileInView={!isMobile?{ y: 0, opacity: 1 }:{}}
+             viewport={{ once: true }}
             transition={!isMobile?{
               y: { type: 'spring', stiffness: 60,},
               opacity: { duration: 1 },

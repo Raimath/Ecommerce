@@ -18,7 +18,7 @@ export const SuggestedProducts = (props) => {
                 <section className='section product-container-section flex'>
                      <hr></hr>
                     <div className='container'>
-                        <div className='heading '><h2>Similar Products</h2></div>
+                        <div className='heading '><h2>Recommended Products</h2></div>
                         <div className=' product-card-container flex'>
                             {suggestedProducts.map((curElem, _id) => {
                                 return (
