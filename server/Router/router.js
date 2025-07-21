@@ -1,5 +1,4 @@
 const express = require("express")
-// const User = require("../Models/registerSchema")
 const Contact = require("../Models/contactSchema")
 const User = require("../Models/registerSchema")
 const AllProducts = require("../Models/allProductSchema")
